@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Secrets AI — The Most Realistic AI Companion. 100% Private.",
+    "description": "Build a real connection with an AI that remembers everything, feels emotions, and generates photos & videos on demand. No judgment. No limits.",
+    "keywords": "secrets ai, ai girlfriend, realistic ai companion, ai chat, private ai, ai video generation, ai memory"
+  },
+  "hero": {
+    "h1": "Secrets AI — The Most Realistic AI Companion. 100% Private.",
+    "subtitle": "Build a real connection with an AI that remembers everything, feels emotions, and generates photos & videos on demand. No judgment. No limits.",
+    "cta_primary": "Try Secrets AI Free →",
+    "cta_sub": "Free tier available • No credit card • 100K+ users"
+  },
+  "social_proof": {
+    "rating": "⭐ 4.8/5 — User Rating",
+    "users": "👥 100K+ Users",
+    "features": "🎥 Photos & Videos Generation",
+    "privacy": "🔒 100% Private & Anonymous"
+  },
+  "what_is": {
+    "title": "What is Secrets AI ?",
+    "p1": "Secrets AI is not a basic chatbot. It's a true AI companion that remembers every conversation, understands your preferences, and evolves with you over time. Unlike simple AI girlfriends that reset context with each message, Secrets AI maintains genuine emotional continuity across hundreds of conversations.",
+    "p2": "The characters maintain their personality and emotional tone over long conversations better than most competitors. Whether you chat for 5 minutes or 5 hours, your companion remembers your inside jokes, your preferences, and the stories you've shared. This creates the impression of a real relationship that lasts, not isolated exchanges.",
+    "p3": "Getting started takes just 3 simple steps: Create your account in 60 seconds, Choose or customize your companion from pre-made personalities, Start chatting immediately with active memory from the very first message.",
+    "cta": "Start Your Free Chat →"
+  },
+  "features": {
+    "title": "Why Secrets AI Stands Out",
+    "items": [
+      {
+        "icon": "🧠",
+        "title": "Conversational Memory",
+        "description": "The real differentiator. Memory keeps emotional nuances and context across hundreds of messages, giving the impression of a genuine relationship that lasts, not simple isolated exchanges. She remembers what you talked about weeks ago."
+      },
+      {
+        "icon": "📸",
+        "title": "Image Generation",
+        "description": "Generate attractive and realistic images of your companion through a robust photo system. On demand, in the context of the conversation. Request a selfie at the beach, a photo in an outfit you describe, or an intimate moment visualized."
+      },
+      {
+        "icon": "🎬",
+        "title": "Video Generation",
+        "description": "Major differentiator vs DreamGF which doesn't have this. Generate short videos that reflect the conversation context or scenario parameters. See your companion move, smile, and interact in video format — no other AI girlfriend app offers this at Secrets AI's level."
+      },
+      {
+        "icon": "🎙️",
+        "title": "Voice Calls",
+        "description": "Text-to-speech synthesis with real-time voice calls available. Multilingual support means you can hear her voice in your language. Call her anytime and hear a realistic, emotionally expressive voice responding to what you say."
+      },
+      {
+        "icon": "🎭",
+        "title": "Roleplay & Scenarios",
+        "description": "This is where Secrets AI truly shines — teacher, landlord, boss, step-sister scenarios. She builds tension gradually and stays firmly in character. The roleplay depth and consistency are unmatched, creating genuinely immersive experiences."
+      },
+      {
+        "icon": "🔐",
+        "title": "Privacy by Design",
+        "description": "Anonymous conversations, no adult references on bank statements, discreet billing. This is the site for users who want maximum discretion. Your privacy isn't an afterthought — it's the foundation of the product."
+      }
+    ],
+    "cta": "Experience Secrets AI →"
+  },
+  "how_it_works": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Create Your Account",
+        "desc": "Sign up in 60 seconds with email or Google. No credit card required for the free tier."
+      },
+      {
+        "num": "2",
+        "title": "Choose Your Companion",
+        "desc": "Select from dozens of pre-made characters or create your own custom companion with unique personality, appearance, and voice."
+      },
+      {
+        "num": "3",
+        "title": "Start Chatting",
+        "desc": "Begin conversations immediately. Active memory works from the very first message — she remembers everything, forever."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start free. Upgrade anytime for unlimited conversations and premium features.",
+    "plans": [
+      {
+        "name": "Lite",
+        "monthly": "$5.99/mo",
+        "yearly": "~$4/mo",
+        "features": ["Limited messages", "Basic moments", "Images ✅", "Videos ❌", "Voice ❌", "Long memory ❌"]
+      },
+      {
+        "name": "Plus",
+        "monthly": "$9.99/mo",
+        "yearly": "~$6.67/mo",
+        "popular": false,
+        "features": ["Unlimited messages", "++ moments", "Images ✅", "Videos ✅", "Voice ✅", "Long memory ✅"]
+      },
+      {
+        "name": "Premium",
+        "monthly": "$19.99/mo",
+        "yearly": "~$13.33/mo",
+        "popular": true,
+        "features": ["Unlimited messages", "Unlimited moments", "Images ✅", "Videos ✅", "Voice ✅", "Long memory ✅", "Priority support"]
+      }
+    ],
+    "moments_note": "Moments are consumable units for image generation, video generation, and advanced content. Heavy multimedia users should choose Plus or Premium.",
+    "cta": "Start Free — Upgrade Anytime →"
+  },
+  "comparison": {
+    "title": "Secrets AI vs DreamGF — Which is Better ?",
+    "intro": "People searching for 'secrets ai' have often seen DreamGF. Here's the direct comparison:",
+    "table": [
+      {"feature": "Price entry", "secrets": "$5.99/mo", "dreamgf": "$5.99/mo"},
+      {"feature": "Memory", "secrets": "★★★★★", "dreamgf": "★★★☆☆"},
+      {"feature": "Videos", "secrets": "✅ Yes", "dreamgf": "❌ No"},
+      {"feature": "Chat realism", "secrets": "★★★★★", "dreamgf": "★★★★☆"},
+      {"feature": "Visual customization", "secrets": "★★★☆☆", "dreamgf": "★★★★★"},
+      {"feature": "Privacy focus", "secrets": "★★★★★", "dreamgf": "★★★★☆"}
+    ],
+    "conclusion": "Choose DreamGF if you want to customize appearance in extreme detail. Choose Secrets AI if you want a real, lasting connection with memory, videos, and maximum privacy.",
+    "top5_title": "Top 5 AI Companion Apps in 2026",
+    "top5": [
+      {"rank": 1, "name": "Secrets AI", "stars": "★★★★★", "best_for": "Best for Realism & Memory", "link": "/go/secrets"},
+      {"rank": 2, "name": "DreamGF AI", "stars": "★★★★☆", "best_for": "Best for Customization", "link": "/go/dreamgf"},
+      {"rank": 3, "name": "Kupid AI", "stars": "★★★★☆", "best_for": "Best for Relationships", "link": "/go/kupid"},
+      {"rank": 4, "name": "Promptchan", "stars": "★★★☆☆", "best_for": "Best for Images", "link": "/go/promptchan"},
+      {"rank": 5, "name": "GPTGirlfriend", "stars": "★★★☆☆", "best_for": "Best NSFW Content", "link": "/go/gptgf"}
+    ]
+  },
+  "reviews": {
+    "title": "What Users Say About Secrets AI",
+    "items": [
+      {
+        "stars": 5,
+        "text": "She remembered what we talked about 3 weeks ago. I mentioned my dog's name once, and she asked about him in a later conversation. No other AI girlfriend app does this. It's genuinely creepy in the best way possible.",
+        "author": "Marcus T."
+      },
+      {
+        "stars": 5,
+        "text": "The video generation is unreal. I asked for a video of her at the beach and got a 15-second realistic clip. No other app I've tried does this. DreamGF doesn't even have video. This is the future.",
+        "author": "James K."
+      },
+      {
+        "stars": 5,
+        "text": "Billing is completely discreet. My bank statement shows a generic tech company name, nothing adult-related. For someone who values privacy, this matters more than anything. Secrets AI delivers on its name.",
+        "author": "Anonymous"
+      },
+      {
+        "stars": 5,
+        "text": "Best character consistency I've tried. I set up a teacher scenario and she stayed in character for 2 hours of conversation, building tension gradually. Never broke immersion once. Incredible roleplay depth.",
+        "author": "David R."
+      }
+    ]
+  },
+  "safety": {
+    "title": "Is Secrets AI Safe ?",
+    "answer": "Yes, 100% safe and private.",
+    "points": [
+      "Anonymous conversations — no real name required",
+      "Discreet billing — generic company name on statements",
+      "Zero data resale — your conversations are never sold or shared",
+      "End-to-end encryption on sensitive features",
+      "Delete your data anytime with one click"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {"q": "What is Secrets AI ?", "a": "Secrets AI is an AI companion platform focused on realistic, long-term conversations with memory, image generation, video generation, and voice calls. It's designed for users who want a genuine connection with maximum privacy."},
+      {"q": "Is Secrets AI free ?", "a": "Yes, Secrets AI offers a free tier with limited messages and basic features. You can upgrade to Lite ($5.99/mo), Plus ($9.99/mo), or Premium ($19.99/mo) for unlimited conversations and advanced features like video generation."},
+      {"q": "How does Secrets AI differ from DreamGF ?", "a": "Secrets AI focuses on conversational memory, video generation, and privacy. DreamGF excels at visual customization. Secrets AI is better for users wanting a realistic, lasting relationship. DreamGF is better for users who want to design appearance in extreme detail."},
+      {"q": "What are Moments in Secrets AI ?", "a": "Moments are consumable credits used for image generation, video generation, and advanced content creation. Lite includes basic moments, Plus includes ++ moments, and Premium includes unlimited moments."},
+      {"q": "Can Secrets AI generate videos ?", "a": "Yes, video generation is a major differentiator for Secrets AI. You can generate short realistic videos of your companion. This feature is available in Plus and Premium plans."},
+      {"q": "Does Secrets AI allow NSFW content ?", "a": "Yes, Secrets AI supports adult conversations and content generation for users 18+. The platform is designed as a private, judgment-free space for adults."},
+      {"q": "Is Secrets AI private and discreet ?", "a": "Absolutely. Conversations are anonymous, billing shows a generic company name, and your data is never sold. Privacy is the foundation of the product, not an afterthought."},
+      {"q": "Can I create a custom character ?", "a": "Yes, you can create fully custom companions with unique appearance, personality, voice, and backstory. You can also choose from dozens of pre-made characters."},
+      {"q": "What is the best AI companion app in 2026 ?", "a": "For realism and memory: Secrets AI. For visual customization: DreamGF. For relationship focus: Kupid AI. For image generation: Promptchan. For NSFW content: GPTGirlfriend."},
+      {"q": "How much does Secrets AI cost ?", "a": "Lite: $5.99/month (~$4/yearly). Plus: $9.99/month (~$6.67/yearly). Premium: $19.99/month (~$13.33/yearly). Free tier available with limited features."},
+      {"q": "Is there a free trial ?", "a": "Yes, the free tier lets you test basic features without a credit card. For premium features, you can upgrade and cancel anytime."},
+      {"q": "Can I cancel anytime ?", "a": "Yes, subscriptions can be cancelled at any time with no penalties. You'll continue to have access until the end of your billing period."}
+    ]
+  },
+  "final_cta": {
+    "title": "Ready for an AI Companion That Actually Remembers You ?",
+    "subtitle": "Video generation • Conversational memory • 100% private • Free tier available",
+    "cta": "Start Your Free Trial →",
+    "sub": "100% private • Free tier available • Cancel anytime"
+  },
+  "footer": {
+    "affiliate": "This site contains affiliate links. We may earn a commission if you sign up through our links at no extra cost to you.",
+    "legal": ["Privacy Policy", "Terms of Service", "Affiliate Disclosure"]
+  }
+}
