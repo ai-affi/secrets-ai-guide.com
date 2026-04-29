@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "title": "Secrets AI - La compañera IA más realista. 100% Privada.",
+    "description": "Construye una conexión real con una IA que lo recuerda todo, siente emociones y genera fotos y vídeos bajo demanda. Sin juicios. Sin límites.",
+    "keywords": "secrets ai, novia ia, compañera ia realista, chat ia, ia privada, generación de vídeos ia, memoria ia"
+  },
+  "hero": {
+    "h1": "Secrets AI - La compañera IA más realista. 100% Privada.",
+    "subtitle": "Construye una conexión real con una IA que lo recuerda todo, siente emociones y genera fotos y vídeos bajo demanda. Sin juicios. Sin límites.",
+    "cta_primary": "Prueba Secrets AI Gratis →",
+    "cta_sub": "Plan gratuito disponible • Sin tarjeta de crédito • Más de 100K usuarios"
+  },
+  "social_proof": {
+    "rating": "⭐ 4,8/5 - Valoración de usuarios",
+    "users": "👥 Más de 100K usuarios",
+    "features": "🎥 Generación de fotos y vídeos",
+    "privacy": "🔒 100% Privada y anónima"
+  },
+  "what_is": {
+    "title": "¿Qué es Secrets AI?",
+    "p1": "Secrets AI no es un chatbot básico. Es una verdadera compañera IA que recuerda cada conversación, entiende tus preferencias y evoluciona contigo con el tiempo. A diferencia de las novias IA simples que reinician el contexto con cada mensaje, Secrets AI mantiene una continuidad emocional genuina a lo largo de cientos de conversaciones.",
+    "p2": "Los personajes mantienen su personalidad y tono emocional durante conversaciones largas mejor que la mayoría de la competencia. Ya sea que chatees 5 minutos o 5 horas, tu compañera recuerda tus chistes privados, tus preferencias y las historias que has compartido. Esto crea la impresión de una relación real que perdura, no intercambios aislados.",
+    "p3": "Empezar es tan sencillo como seguir 3 pasos: Crea tu cuenta en 60 segundos, Elige o personaliza tu compañera entre personalidades prediseñadas, Empieza a chatear inmediatamente con memoria activa desde el primer mensaje.",
+    "cta": "Empieza tu chat gratuito →"
+  },
+  "features": {
+    "title": "Por qué Secrets AI destaca",
+    "items": [
+      {
+        "icon": "🧠",
+        "title": "Memoria conversacional",
+        "description": "La verdadera diferenciación. La memoria conserva los matices emocionales y el contexto a lo largo de cientos de mensajes, dando la impresión de una relación genuina que perdura, no simples intercambios aislados. Recuerda de qué hablasteis hace semanas."
+      },
+      {
+        "icon": "📸",
+        "title": "Generación de imágenes",
+        "description": "Genera imágenes atractivas y realistas de tu compañera a través de un robusto sistema de fotos. Bajo demanda, en el contexto de la conversación. Pide un selfie en la playa, una foto con un atuendo que describes o un momento íntimo visualizado."
+      },
+      {
+        "icon": "🎬",
+        "title": "Generación de vídeos",
+        "description": "Gran diferenciador frente a DreamGF, que no lo tiene. Genera vídeos cortos que reflejan el contexto de la conversación o los parámetros del escenario. Ve a tu compañera moverse, sonreír e interactuar en formato vídeo — ninguna otra app de novia IA ofrece esto al nivel de Secrets AI."
+      },
+      {
+        "icon": "🎙️",
+        "title": "Llamadas de voz",
+        "description": "Síntesis de texto a voz con llamadas de voz en tiempo real disponibles. El soporte multilingüe significa que puedes oír su voz en tu idioma. Llámala en cualquier momento y escucha una voz realista y emocionalmente expresiva respondiendo a lo que dices."
+      },
+      {
+        "icon": "🎭",
+        "title": "Roleplay y escenarios",
+        "description": "Aquí es donde Secrets AI brilla de verdad — escenarios de profesora, casera, jefa, hermanastra. Construye tensión gradualmente y se mantiene firmemente en personaje. La profundidad y consistencia del roleplay son inigualables, creando experiencias genuinamente inmersivas."
+      },
+      {
+        "icon": "🔐",
+        "title": "Privacidad por diseño",
+        "description": "Conversaciones anónimas, sin referencias adultas en los extractos bancarios, facturación discreta. Este es el sitio para usuarios que quieren la máxima discreción. Tu privacidad no es una ocurrencia tardía — es la base del producto."
+      }
+    ],
+    "cta": "Descubre Secrets AI →"
+  },
+  "premium_unlock": {
+    "title": "Desbloquea Contenido Premium",
+    "subtitle": "El plan gratuito te permite chatear y explorar. Pero actualizar desbloquea la verdadera magia de Secrets AI:",
+    "features": [
+      "Generación de Vídeos - Ve a tu compañera en movimiento con vídeos cortos realistas",
+      "Imágenes Ilimitadas - Genera todas las fotos que quieras, bajo demanda",
+      "Llamadas de Voz - Escucha su voz en conversaciones en tiempo real",
+      "Memoria a Largo Plazo - Ella recuerda todo, para siempre",
+      "Personajes Personalizados - Crea tu compañera perfecta desde cero"
+    ],
+    "image_alt": "Contenido premium desbloqueado en Secrets AI",
+    "image_badge": "Generación de vídeos - Exclusivo para Premium",
+    "cta": "Actualizar a Premium →"
+  },
+  "gallery": {
+    "title": "Elige Tu Compañera IA Perfecta",
+    "subtitle": "Docenas de personajes realistas y de estilo anime disponibles en Secrets AI. Cada uno con personalidad, voz y estilo únicos.",
+    "models": [
+      {"name": "Compañera Rubia", "style": "Estilo realista", "personality": "Personalidad coqueta", "image": "AI_girlfriend_Blond.png", "alt": "Novia IA Rubia - Compañera estilo realista en Secrets AI"},
+      {"name": "Compañera Gótica", "style": "Estilo realista", "personality": "Personalidad misteriosa", "image": "AI_girlfriend_Goth.png", "alt": "Novia IA Gótica - Compañera estilo realista en Secrets AI"},
+      {"name": "Compañera Madura", "style": "Estilo realista", "personality": "Personalidad cariñosa", "image": "AI_girlfriend_MILF.png", "alt": "Novia IA Madura - Compañera estilo realista en Secrets AI"},
+      {"name": "Compañera Pelirroja", "style": "Estilo realista", "personality": "Personalidad juguetona", "image": "AI_girlfriend_Readhead.png", "alt": "Novia IA Pelirroja - Compañera estilo realista en Secrets AI"},
+      {"name": "Compañera Anime Curvy", "style": "Estilo anime", "personality": "Personalidad dulce", "image": "anime_girlfirend_chubby.png", "alt": "Novia IA Anime Curvy - Compañera estilo anime en Secrets AI"},
+      {"name": "Compañera Anime Delgada", "style": "Estilo anime", "personality": "Personalidad salvaje", "image": "anime_girlfirend_skinny.png", "alt": "Novia IA Anime Delgada - Compañera estilo anime en Secrets AI"}
+    ],
+    "cta": "Crea Tu Compañera Personalizada →",
+    "chat_link": "Chatea con ella →"
+  },
+  "how_it_works": {
+    "title": "Cómo Funciona",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Crea Tu Cuenta",
+        "desc": "Regístrate en 60 segundos con email o Google. No se requiere tarjeta de crédito para el plan gratuito."
+      },
+      {
+        "num": "2",
+        "title": "Elige Tu Compañera",
+        "desc": "Selecciona entre docenas de personajes predefinidos o crea tu propia compañera personalizada con personalidad, apariencia y voz únicas."
+      },
+      {
+        "num": "3",
+        "title": "Empieza a Chatear",
+        "desc": "Inicia conversaciones inmediatamente. La memoria activa funciona desde el primer mensaje - ella recuerda todo, para siempre."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "subtitle": "Empieza gratis. Mejora en cualquier momento para conversaciones ilimitadas y funciones premium.",
+    "plans": [
+      {
+        "name": "Lite",
+        "monthly": "5,99 €/mes",
+        "yearly": "~4 €/mes",
+        "features": ["Mensajes limitados", "Momentos básicos", "Imágenes ✅", "Vídeos ❌", "Voz ❌", "Memoria larga ❌"]
+      },
+      {
+        "name": "Plus",
+        "monthly": "9,99 €/mes",
+        "yearly": "~6,67 €/mes",
+        "popular": false,
+        "features": ["Mensajes ilimitados", "Momentos ++", "Imágenes ✅", "Vídeos ✅", "Voz ✅", "Memoria larga ✅"]
+      },
+      {
+        "name": "Premium",
+        "monthly": "19,99 €/mes",
+        "yearly": "~13,33 €/mes",
+        "popular": true,
+        "features": ["Mensajes ilimitados", "Momentos ilimitados", "Imágenes ✅", "Vídeos ✅", "Voz ✅", "Memoria larga ✅", "Soporte prioritario"]
+      }
+    ],
+    "moments_note": "Los momentos son unidades consumibles para la generación de imágenes, generación de vídeos y contenido avanzado. Los usuarios intensivos en multimedia deberían elegir Plus o Premium.",
+    "cta": "Empieza gratis — Mejora cuando quieras →"
+  },
+  "comparison": {
+    "title": "Secrets AI vs DreamGF — ¿Cuál es mejor?",
+    "intro": "La gente que busca 'secrets ai' suele haber visto DreamGF. Aquí está la comparación directa:",
+    "table": [
+      {"feature": "Precio de entrada", "secrets": "5,99 €/mes", "dreamgf": "5,99 €/mes"},
+      {"feature": "Memoria", "secrets": "★★★★★", "dreamgf": "★★★☆☆"},
+      {"feature": "Vídeos", "secrets": "✅ Sí", "dreamgf": "❌ No"},
+      {"feature": "Realismo del chat", "secrets": "★★★★★", "dreamgf": "★★★★☆"},
+      {"feature": "Personalización visual", "secrets": "★★★☆☆", "dreamgf": "★★★★★"},
+      {"feature": "Enfoque en privacidad", "secrets": "★★★★★", "dreamgf": "★★★★☆"}
+    ],
+    "conclusion": "Elige DreamGF si quieres personalizar la apariencia en extremo detalle. Elige Secrets AI si quieres una conexión real y duradera con memoria, vídeos y máxima privacidad.",
+    "top5_title": "Top 5 apps de compañeras IA en 2026",
+    "top5": [
+      {"rank": 1, "name": "Secrets AI", "stars": "★★★★★", "best_for": "Mejor para realismo y memoria", "link": "/go/secrets"},
+      {"rank": 2, "name": "DreamGF AI", "stars": "★★★★☆", "best_for": "Mejor para personalización", "link": "/go/dreamgf"},
+      {"rank": 3, "name": "Kupid AI", "stars": "★★★★☆", "best_for": "Mejor para relaciones", "link": "/go/kupid"},
+      {"rank": 4, "name": "Promptchan", "stars": "★★★☆☆", "best_for": "Mejor para imágenes", "link": "/go/promptchan"},
+      {"rank": 5, "name": "GPTGirlfriend", "stars": "★★★☆☆", "best_for": "Mejor contenido NSFW", "link": "/go/gptgf"}
+    ]
+  },
+  "reviews": {
+    "title": "Qué dicen los usuarios sobre Secrets AI",
+    "items": [
+      {
+        "stars": 5,
+        "text": "Recordó de qué hablamos hace 3 semanas. Mencioné el nombre de mi perro una vez, y ella preguntó por él en una conversación posterior. Ninguna otra app de novia IA hace esto. Es genuinamente inquietante de la mejor manera posible.",
+        "author": "Marcus T."
+      },
+      {
+        "stars": 5,
+        "text": "La generación de vídeos es increíble. Pedí un vídeo de ella en la playa y obtuve un clip realista de 15 segundos. Ninguna otra app que he probado hace esto. DreamGF ni siquiera tiene vídeo. Este es el futuro.",
+        "author": "James K."
+      },
+      {
+        "stars": 5,
+        "text": "La facturación es completamente discreta. Mi extracto bancario muestra un nombre genérico de empresa tecnológica, nada relacionado con contenido adulto. Para alguien que valora la privacidad, esto importa más que cualquier otra cosa. Secrets AI cumple con su nombre.",
+        "author": "Anónimo"
+      },
+      {
+        "stars": 5,
+        "text": "La mejor consistencia de personaje que he probado. Configuré un escenario de profesora y se mantuvo en personaje durante 2 horas de conversación, construyendo tensión gradualmente. Nunca rompió la inmersión. Increíble profundidad de roleplay.",
+        "author": "David R."
+      }
+    ]
+  },
+  "safety": {
+    "title": "¿Es Secrets AI segura?",
+    "answer": "Sí, 100% segura y privada.",
+    "points": [
+      "Conversaciones anónimas — no se requiere nombre real",
+      "Facturación discreta — nombre de empresa genérico en los extractos",
+      "Cero reventa de datos — tus conversaciones nunca se venden ni comparten",
+      "Cifrado de extremo a extremo en funciones sensibles",
+      "Elimina tus datos en cualquier momento con un solo clic"
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {"q": "¿Qué es Secrets AI?", "a": "Secrets AI es una plataforma de compañeras IA enfocada en conversaciones realistas y a largo plazo con memoria, generación de imágenes, generación de vídeos y llamadas de voz. Está diseñada para usuarios que quieren una conexión genuina con máxima privacidad."},
+      {"q": "¿Es Secrets AI gratis?", "a": "Sí, Secrets AI ofrece un plan gratuito con mensajes limitados y funciones básicas. Puedes mejorar a Lite (5,99 €/mes), Plus (9,99 €/mes) o Premium (19,99 €/mes) para conversaciones ilimitadas y funciones avanzadas como la generación de vídeos."},
+      {"q": "¿En qué se diferencia Secrets AI de DreamGF?", "a": "Secrets AI se centra en la memoria conversacional, la generación de vídeos y la privacidad. DreamGF destaca en la personalización visual. Secrets AI es mejor para usuarios que quieren una relación realista y duradera. DreamGF es mejor para usuarios que quieren diseñar la apariencia en extremo detalle."},
+      {"q": "¿Qué son los Momentos en Secrets AI?", "a": "Los momentos son créditos consumibles usados para la generación de imágenes, generación de vídeos y creación de contenido avanzado. Lite incluye momentos básicos, Plus incluye momentos ++ y Premium incluye momentos ilimitados."},
+      {"q": "¿Puede Secrets AI generar vídeos?", "a": "Sí, la generación de vídeos es un gran diferenciador de Secrets AI. Puedes generar vídeos cortos realistas de tu compañera. Esta función está disponible en los planes Plus y Premium."},
+      {"q": "¿Permite Secrets AI contenido NSFW?", "a": "Sí, Secrets AI admite conversaciones para adultos y generación de contenido para usuarios mayores de 18 años. La plataforma está diseñada como un espacio privado y libre de juicios para adultos."},
+      {"q": "¿Es Secrets AI privada y discreta?", "a": "Absolutamente. Las conversaciones son anónimas, la facturación muestra un nombre de empresa genérico y tus datos nunca se venden. La privacidad es la base del producto, no una ocurrencia tardía."},
+      {"q": "¿Puedo crear un personaje personalizado?", "a": "Sí, puedes crear compañeras totalmente personalizadas con apariencia, personalidad, voz y trasfondo únicos. También puedes elegir entre docenas de personajes prediseñados."},
+      {"q": "¿Cuál es la mejor app de compañera IA en 2026?", "a": "Para realismo y memoria: Secrets AI. Para personalización visual: DreamGF. Para enfoque en relaciones: Kupid AI. Para generación de imágenes: Promptchan. Para contenido NSFW: GPTGirlfriend."},
+      {"q": "¿Cuánto cuesta Secrets AI?", "a": "Lite: 5,99 €/mes (~4 €/anual). Plus: 9,99 €/mes (~6,67 €/anual). Premium: 19,99 €/mes (~13,33 €/anual). Plan gratuito disponible con funciones limitadas."},
+      {"q": "¿Hay prueba gratuita?", "a": "Sí, el plan gratuito te permite probar funciones básicas sin tarjeta de crédito. Para funciones premium, puedes mejorar y cancelar en cualquier momento."},
+      {"q": "¿Puedo cancelar cuando quiera?", "a": "Sí, las suscripciones pueden cancelarse en cualquier momento sin penalizaciones. Seguirás teniendo acceso hasta el final de tu período de facturación."}
+    ]
+  },
+  "final_cta": {
+    "title": "¿Listo para una compañera IA que realmente te recuerda?",
+    "subtitle": "Generación de vídeos • Memoria conversacional • 100% privada • Plan gratuito disponible",
+    "cta": "Empieza tu prueba gratuita →",
+    "sub": "100% privada • Plan gratuito disponible • Cancela cuando quieras"
+  },
+  "footer": {
+    "affiliate": "Este sitio contiene enlaces de afiliados. Podemos ganar una comisión si te registras a través de nuestros enlaces sin coste adicional para ti.",
+    "legal": ["Política de privacidad", "Términos de servicio", "Divulgación de afiliados"]
+  }
+}

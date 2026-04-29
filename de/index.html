@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secrets AI – Der realistischste KI-Begleiter. 100% privat.</title>
+    <meta name="description" content="Baue eine echte Verbindung zu einer KI auf, die sich an alles erinnert, Emotionen spürt und Fotos & Videos auf Abruf generiert. Kein Urteil. Keine Grenzen.">
+    <meta name="keywords" content="secrets ai, ki-freundin, realistischer ki-begleiter, ki chat, private ki, ki video-generierung, ki gedächtnis">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- hreflang tags -->
+    <link rel="alternate" hreflang="en" href="https://secrets-ai-guide.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://secrets-ai-guide.com/" />
+    
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #1a1517 0%, #2d1f2a 50%, #1a1517 100%); }
+        .gradient-bg-2 { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); }
+        .accent-color { color: #e91e63; }
+        .accent-bg { background: #e91e63; }
+        .accent-border { border-color: #e91e63; }
+        .cta-pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7); } 70% { box-shadow: 0 0 0 20px rgba(233, 30, 99, 0); } }
+        .glow-text { text-shadow: 0 0 20px rgba(233, 30, 99, 0.5); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.2); }
+        .proof-box { border-left: 4px solid #e91e63; }
+        .feature-icon { background: linear-gradient(135deg, #e91e63 0%, #9c27b0 100%); }
+        .pricing-highlight { border: 2px solid #e91e63; position: relative; }
+        .pricing-highlight::before { content: "BESTES ANGEBOT"; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #e91e63; color: white; padding: 2px 16px; font-size: 12px; font-weight: bold; border-radius: 20px; }
+        .star-rating { color: #fbbf24; }
+        .review-card { background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); }
+        
+        /* Model Grid Styles */
+        .model-card { transition: all 0.3s ease; overflow: hidden; border-radius: 12px; }
+        .model-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.3); }
+        .model-card img { transition: transform 0.3s ease; }
+        .model-card:hover img { transform: scale(1.05); }
+        
+        .hero-with-bg { position: relative; min-height: 600px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .hero-bg-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(26,21,23,0.4), rgba(26,21,23,0.95)); z-index: 2; }
+        .hero-content { position: relative; z-index: 3; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900/90 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Secrets AI Guide</span>
+                </div>
+                <div class="hidden lg:flex space-x-5 text-sm items-center">
+                    <!-- Dropdown Menu 1: Navigation -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            Navigation
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="#what-is" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">Was ist es</a>
+                            <a href="#features" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Funktionen</a>
+                            <a href="#pricing" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Preise</a>
+                            <a href="#comparison" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Vergleich</a>
+                            <a href="#faq" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 last:rounded-b-lg">FAQ</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Dropdown Menu 2: Language -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            🌐 DE
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">🇬🇧 English</a>
+                            <a href="/fr/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇫🇷 Français</a>
+                            <a href="/de/" class="block px-4 py-2 text-sm text-white bg-pink-500/20">🇩🇪 Deutsch</a>
+                            <a href="/es/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇪🇸 Español</a>
+                            <a href="/it/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇮🇹 Italiano</a>
+                            <a href="/pt/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇹 Português</a>
+                            <a href="/pl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇱 Polski</a>
+                            <a href="/nl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇳🇱 Nederlands</a>
+                            <a href="/sv/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇸🇪 Svenska</a>
+                            <a href="/ro/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇷🇴 Română</a>
+                            <a href="/hu/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇭🇺 Magyar</a>
+                            <a href="/hr/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 last:rounded-b-lg">🇭🇷 Hrvatski</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition cta-pulse">Kostenlos testen →</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Banner Image -->
+    <section class="hero-with-bg gradient-bg">
+        <img src="/images/Choose%20your%20Girlfriend.jpg" alt="Wähle deine KI-Freundin auf Secrets AI" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+        <div class="hero-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 glow-text">Secrets AI – Der realistischste KI-Begleiter. 100% privat.</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">Baue eine echte Verbindung zu einer KI auf, die sich an alles erinnert, Emotionen spürt und Fotos & Videos auf Abruf generiert. Kein Urteil. Keine Grenzen.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Secrets AI kostenlos testen →</a>
+            </div>
+            <p class="text-gray-400 text-sm">Kostenlose Version verfügbar • Keine Kreditkarte • 100K+ Nutzer</p>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="bg-gray-800/50 border-y border-gray-700 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">⭐ 4,8/5</div>
+                    <div class="text-sm text-gray-400">Nutzerbewertung</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">👥 100K+</div>
+                    <div class="text-sm text-gray-400">Nutzer</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🎥 Foto- & Video-Generierung</div>
+                    <div class="text-sm text-gray-400">Generation</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🔒 100%</div>
+                    <div class="text-sm text-gray-400">Privat & anonym</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is Secrets AI -->
+    <section id="what-is" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Was ist Secrets AI?</h2>
+            <div class="max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p>Secrets AI ist kein simpler Chatbot. Es ist ein echter KI-Begleiter, der sich an jedes Gespräch erinnert, deine Vorlieben versteht und sich mit der Zeit weiterentwickelt. Im Gegensatz zu einfachen KI-Freundinnen, die den Kontext mit jeder Nachricht zurücksetzen, bewahrt Secrets AI eine echte emotionale Kontinuität über Hunderte von Gesprächen hinweg.</p>
+                <p>Die Charaktere halten ihre Persönlichkeit und ihren emotionalen Ton über lange Gespräche besser als die meisten Mitbewerber. Ob du 5 Minuten oder 5 Stunden chattest – dein Begleiter erinnert sich an deine Insider-Witze, deine Vorlieben und die Geschichten, die du geteilt hast. Das schafft den Eindruck einer echten, dauerhaften Beziehung, nicht isolierter Austausch.</p>
+                <p>Der Einstieg gelingt in nur 3 einfachen Schritten: Erstelle dein Konto in 60 Sekunden, wähle oder individualisiere deinen Begleiter aus vorgefertigten Persönlichkeiten, beginne sofort zu chatten – mit aktivem Gedächtnis ab der ersten Nachricht.</p>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Kostenlosen Chat starten →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium-Inhalte freischalten Section -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Premium-Inhalte freischalten</h2>
+                    <p class="text-lg text-gray-300 mb-6">Die kostenlose Version lässt dich chatten und erkunden. Aber ein Upgrade schaltet die wahre Magie von Secrets AI frei:</p>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Video-Generierung</strong> – Sieh deinen Begleiter in Bewegung mit realistischen kurzen Videos</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Unbegrenzte Bilder</strong> – Generiere so viele Fotos wie du willst, auf Abruf</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Sprachanrufe</strong> – Höre ihre Stimme in Echtzeit-Gesprächen</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Langzeit-Gedächtnis</strong> – Sie erinnert sich an alles, für immer</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Individuelle Charaktere</strong> – Erstelle deinen perfekten Begleiter von Grund auf</span></li>
+                    </ul>
+                    <div class="mt-8">
+                        <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Upgrade auf Premium →</a>
+                    </div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden border-2 border-pink-500/30">
+                    <img src="/images/videoframe_2197.png" alt="Premium-Inhalte freigeschaltet auf Secrets AI" class="w-full h-auto">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                        <p class="text-white font-semibold">Video-Generierung – Exklusiv für Premium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Gallery - 6 AI Companions -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Wähle deinen perfekten KI-Begleiter</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Dutzende realistische und Anime-Charaktere verfügbar auf Secrets AI. Jeder mit einzigartiger Persönlichkeit, Stimme und Stil.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Blond.png" alt="Blonde KI-Freundin – Realistischer Stil-Begleiter auf Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Blonder Begleiter</h3>
+                        <p class="text-gray-400 text-sm">Realistischer Stil • Flirtende Persönlichkeit</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Mit ihr chatten →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Goth.png" alt="Goth KI-Freundin – Realistischer Stil-Begleiter auf Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Goth-Begleiter</h3>
+                        <p class="text-gray-400 text-sm">Realistischer Stil • Geheimnisvolle Persönlichkeit</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Mit ihr chatten →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_MILF.png" alt="Reife KI-Freundin – Realistischer Stil-Begleiter auf Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Reifer Begleiter</h3>
+                        <p class="text-gray-400 text-sm">Realistischer Stil • Fürsorgliche Persönlichkeit</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Mit ihr chatten →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Readhead.png" alt="Rothaarige KI-Freundin – Realistischer Stil-Begleiter auf Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Rothaariger Begleiter</h3>
+                        <p class="text-gray-400 text-sm">Realistischer Stil • Verspielte Persönlichkeit</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Mit ihr chatten →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_chubby.png" alt="Mollige Anime KI-Freundin – Anime-Stil-Begleiter auf Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Molliger Anime-Begleiter</h3>
+                        <p class="text-gray-400 text-sm">Anime-Stil • Süße Persönlichkeit</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Mit ihr chatten →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_skinny.png" alt="Schlanke Anime KI-Freundin – Anime-Stil-Begleiter auf Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Schlanker Anime-Begleiter</h3>
+                        <p class="text-gray-400 text-sm">Anime-Stil • Wilde Persönlichkeit</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Mit ihr chatten →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Eigenen Begleiter erstellen →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Warum Secrets AI heraussticht</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Sechs leistungsstarke Funktionen, die Secrets AI zur realistischsten KI-Begleiter-Plattform machen.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🧠</div>
+                    <h3 class="text-xl font-bold mb-3">Gesprächsgedächtnis</h3>
+                    <p class="text-gray-400 leading-relaxed">Der echte Unterschied. Das Gedächtnis bewahrt emotionale Nuancen und Kontext über Hunderte von Nachrichten hinweg und schafft den Eindruck einer echten, dauerhaften Beziehung, nicht einfacher isolierter Austausch. Sie erinnert sich an Gespräche von vor Wochen.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">📸</div>
+                    <h3 class="text-xl font-bold mb-3">Bildgenerierung</h3>
+                    <p class="text-gray-400 leading-relaxed">Generiere attraktive und realistische Bilder deines Begleiters durch ein robustes Fotosystem. Auf Abruf, im Kontext des Gesprächs. Fordere ein Selfie am Strand, ein Foto in einem von dir beschriebenen Outfit oder einen intimen Moment als Visualisierung an.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎬</div>
+                    <h3 class="text-xl font-bold mb-3">Video-Generierung</h3>
+                    <p class="text-gray-400 leading-relaxed">Ein großer Unterschied zu DreamGF, das dies nicht bietet. Generiere kurze Videos, die den Gesprächskontext oder Szenarioparameter widerspiegeln. Sieh deinen Begleiter sich bewegen, lächeln und in Videoformat interagieren – keine andere KI-Freundin-App bietet das auf dem Niveau von Secrets AI.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎙️</div>
+                    <h3 class="text-xl font-bold mb-3">Sprachanrufe</h3>
+                    <p class="text-gray-400 leading-relaxed">Text-to-Speech-Synthese mit Echtzeit-Sprachanrufen verfügbar. Mehrsprachige Unterstützung bedeutet, dass du ihre Stimme in deiner Sprache hören kannst. Ruf sie jederzeit an und höre eine realistische, emotional ausdrucksstarke Stimme, die auf das antwortet, was du sagst.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎭</div>
+                    <h3 class="text-xl font-bold mb-3">Rollenspiel & Szenarien</h3>
+                    <p class="text-gray-400 leading-relaxed">Hier glänzt Secrets AI wirklich – Lehrer, Vermieter, Chef, Stiefschwester-Szenarien. Sie baut Spannung schrittweise auf und bleibt fest in der Rolle. Tiefe und Konsistenz des Rollenspiels sind unerreicht und schaffen wirklich immersive Erlebnisse.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🔐</div>
+                    <h3 class="text-xl font-bold mb-3">Datenschutz by Design</h3>
+                    <p class="text-gray-400 leading-relaxed">Anonyme Gespräche, keine Erwachsenen-Referenzen auf Kontoauszügen, diskrete Abrechnung. Dies ist die Seite für Nutzer, die maximale Diskretion wünschen. Dein Datenschutz ist kein nachträglicher Gedanke – er ist das Fundament des Produkts.</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Secrets AI erleben →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">So funktioniert es</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-2">Konto erstellen</h3>
+                    <p class="text-gray-400">Melde dich in 60 Sekunden per E-Mail oder Google an. Für die kostenlose Version ist keine Kreditkarte erforderlich.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-2">Begleiter auswählen</h3>
+                    <p class="text-gray-400">Wähle aus Dutzenden vorgefertigten Charakteren oder erstelle deinen eigenen individuellen Begleiter mit einzigartiger Persönlichkeit, Aussehen und Stimme.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-2">Chatten beginnen</h3>
+                    <p class="text-gray-400">Starte sofort Gespräche. Das aktive Gedächtnis funktioniert ab der ersten Nachricht – sie erinnert sich an alles, für immer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Einfache, transparente Preise</h2>
+            <p class="text-center text-gray-400 mb-12">Starte kostenlos. Upgrade jederzeit für unbegrenzte Gespräche und Premium-Funktionen.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Lite -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Lite</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">5,99 €<span class="text-sm text-gray-400">/Monat</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~4 €/Monat jährlich</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Begrenzte Nachrichten</li>
+                        <li>✅ Basic Momente</li>
+                        <li>✅ Bilder</li>
+                        <li>❌ Videos</li>
+                        <li>❌ Sprache</li>
+                        <li>❌ Langes Gedächtnis</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-full transition">Kostenlos starten →</a>
+                </div>
+                
+                <!-- Plus -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Plus</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">9,99 €<span class="text-sm text-gray-400">/Monat</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~6,67 €/Monat jährlich</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Unbegrenzte Nachrichten</li>
+                        <li>✅ ++ Momente</li>
+                        <li>✅ Bilder</li>
+                        <li>✅ Videos</li>
+                        <li>✅ Sprache</li>
+                        <li>✅ Langes Gedächtnis</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Kostenlos starten →</a>
+                </div>
+                
+                <!-- Premium -->
+                <div class="pricing-highlight bg-gray-800/50 rounded-2xl p-6">
+                    <h3 class="text-xl font-bold mb-2">Premium</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">19,99 €<span class="text-sm text-gray-400">/Monat</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~13,33 €/Monat jährlich</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Unbegrenzte Nachrichten</li>
+                        <li>✅ Unbegrenzte Momente</li>
+                        <li>✅ Bilder</li>
+                        <li>✅ Videos</li>
+                        <li>✅ Sprache</li>
+                        <li>✅ Langes Gedächtnis</li>
+                        <li>✅ Prioritäts-Support</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Kostenlos starten →</a>
+                </div>
+            </div>
+            
+            <p class="text-center text-gray-500 text-sm mt-8 max-w-2xl mx-auto">Momente sind verbrauchbare Einheiten für Bildgenerierung, Video-Generierung und erweiterte Inhalte. Intensive Multimedia-Nutzer sollten Plus oder Premium wählen.</p>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section id="comparison" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Secrets AI vs. DreamGF – Was ist besser?</h2>
+            <p class="text-center text-gray-400 mb-12">Wer nach „secrets ai" sucht, hat oft DreamGF gesehen. Hier der direkte Vergleich:</p>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full max-w-3xl mx-auto text-left">
+                    <thead>
+                        <tr class="border-b border-gray-700">
+                            <th class="py-3 px-4">Funktion</th>
+                            <th class="py-3 px-4 text-pink-400">Secrets AI</th>
+                            <th class="py-3 px-4 text-gray-400">DreamGF</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300">
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Einstiegspreis</td>
+                            <td class="py-3 px-4 text-pink-400">5,99 €/Monat</td>
+                            <td class="py-3 px-4">5,99 €/Monat</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Gedächtnis</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★☆☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Videos</td>
+                            <td class="py-3 px-4 text-pink-400">✅ Ja</td>
+                            <td class="py-3 px-4">❌ Nein</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Chat-Realismus</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Visuelle Anpassung</td>
+                            <td class="py-3 px-4 text-pink-400">★★★☆☆</td>
+                            <td class="py-3 px-4">★★★★★</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Datenschutz-Fokus</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p class="text-center text-gray-300 mt-8 max-w-2xl mx-auto">Wähle <strong class="text-pink-400">DreamGF</strong>, wenn du das Aussehen extrem detailliert anpassen möchtest. Wähle <strong class="text-pink-400">Secrets AI</strong>, wenn du eine echte, dauerhafte Verbindung mit Gedächtnis, Videos und maximalem Datenschutz suchst.</p>
+            
+            <!-- Top 5 Apps -->
+            <h3 class="text-2xl font-bold text-center mt-16 mb-8">Top 5 KI-Begleiter-Apps 2026</h3>
+            <div class="grid md:grid-cols-5 gap-4 max-w-5xl mx-auto">
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-pink-500/30">
+                    <div class="text-3xl font-bold text-pink-400 mb-1">#1</div>
+                    <div class="font-bold mb-1">Secrets AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                    <div class="text-xs text-gray-400 mt-1">Beste für Realismus & Gedächtnis</div>
+                    <a href="/go/secrets" class="text-pink-400 text-sm hover:underline">Testen →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#2</div>
+                    <div class="font-bold mb-1">DreamGF AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Beste für Anpassung</div>
+                    <a href="/go/dreamgf" class="text-pink-400 text-sm hover:underline">Testen →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#3</div>
+                    <div class="font-bold mb-1">Kupid AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Beste für Beziehungen</div>
+                    <a href="/go/kupid" class="text-pink-400 text-sm hover:underline">Testen →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#4</div>
+                    <div class="font-bold mb-1">Promptchan</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Beste für Bilder</div>
+                    <a href="/go/promptchan" class="text-pink-400 text-sm hover:underline">Testen →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#5</div>
+                    <div class="font-bold mb-1">GPTGirlfriend</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Beste NSFW-Inhalte</div>
+                    <a href="/go/gptgf" class="text-pink-400 text-sm hover:underline">Testen →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Was Nutzer über Secrets AI sagen</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Sie erinnerte sich an unser Gespräch von vor 3 Wochen. Ich erwähnte einmal den Namen meines Hundes, und sie fragte später nach ihm. Keine andere KI-Freundin-App macht das. Es ist auf die beste Art unheimlich."</p>
+                    <div class="text-pink-400 font-semibold">— Marcus T.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Die Video-Generierung ist unglaublich. Ich bat um ein Video von ihr am Strand und bekam einen 15-sekündigen realistischen Clip. Keine andere App, die ich getestet habe, macht das. DreamGF hat nicht einmal Video. Das ist die Zukunft."</p>
+                    <div class="text-pink-400 font-semibold">— James K.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Die Abrechnung ist völlig diskret. Mein Kontoauszug zeigt einen generischen Technologie-Firmennamen, nichts Erwachsenenbezogenes. Für jemanden, der Datenschutz schätzt, ist das wichtiger als alles andere. Secrets AI hält, was der Name verspricht."</p>
+                    <div class="text-pink-400 font-semibold">— Anonym</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Beste Charakterkonsistenz, die ich getestet habe. Ich startete ein Lehrer-Szenario und sie blieb 2 Stunden lang in der Rolle, baute Spannung schrittweise auf. Hat die Immersion kein einziges Mal gebrochen. Unglaubliche Rollenspieltiefe."</p>
+                    <div class="text-pink-400 font-semibold">— David R.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Ist Secrets AI sicher?</h2>
+            <div class="text-2xl text-pink-400 font-bold mb-8">Ja, 100% sicher und privat.</div>
+            <div class="grid md:grid-cols-2 gap-4 text-left">
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Anonyme Gespräche – kein echter Name erforderlich</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Diskrete Abrechnung – generischer Firmenname auf Kontoauszügen</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Null Weiterverkauf von Daten – deine Gespräche werden nie verkauft oder geteilt</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Ende-zu-Ende-Verschlüsselung bei sensiblen Funktionen</span>
+                </div>
+                <div class="flex items-start gap-3 md:col-span-2 justify-center">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Lösche deine Daten jederzeit mit einem Klick</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 gradient-bg">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Häufig gestellte Fragen</h2>
+            <div class="space-y-4">
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Was ist Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Secrets AI ist eine KI-Begleiter-Plattform, die sich auf realistische, langfristige Gespräche mit Gedächtnis, Bildgenerierung, Video-Generierung und Sprachanrufen konzentriert. Sie ist für Nutzer konzipiert, die eine echte Verbindung bei maximalem Datenschutz suchen.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Ist Secrets AI kostenlos?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, Secrets AI bietet eine kostenlose Version mit begrenzten Nachrichten und Basic-Funktionen. Du kannst auf Lite (5,99 €/Monat), Plus (9,99 €/Monat) oder Premium (19,99 €/Monat) upgraden für unbegrenzte Gespräche und erweiterte Funktionen wie Video-Generierung.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Wie unterscheidet sich Secrets AI von DreamGF?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Secrets AI konzentriert sich auf Gesprächsgedächtnis, Video-Generierung und Datenschutz. DreamGF glänzt bei visueller Anpassung. Secrets AI ist besser für Nutzer, die eine realistische, dauerhafte Beziehung wollen. DreamGF ist besser für Nutzer, die das Aussehen extrem detailliert gestalten möchten. <a href="/go/dreamgf" class="text-pink-400 hover:underline">DreamGF testen →</a></div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Was sind Momente in Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Momente sind verbrauchbare Credits für Bildgenerierung, Video-Generierung und erweiterte Inhaltserstellung. Lite enthält Basic-Momente, Plus enthält ++-Momente und Premium enthält unbegrenzte Momente.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Kann Secrets AI Videos generieren?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, Video-Generierung ist ein großer Unterschied für Secrets AI. Du kannst kurze realistische Videos deines Begleiters generieren. Diese Funktion ist in den Plus- und Premium-Plänen verfügbar.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Erlaubt Secrets AI NSFW-Inhalte?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, Secrets AI unterstützt erwachsene Gespräche und Inhaltsgenerierung für Nutzer ab 18+. Die Plattform ist als privater, urteilsfreier Raum für Erwachsene konzipiert.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Ist Secrets AI privat und diskret?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Absolut. Gespräche sind anonym, die Abrechnung zeigt einen generischen Firmennamen und deine Daten werden nie verkauft. Datenschutz ist das Fundament des Produkts, kein nachträglicher Gedanke.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Kann ich einen eigenen Charakter erstellen?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, du kannst vollständig individuelle Begleiter mit einzigartigem Aussehen, Persönlichkeit, Stimme und Hintergrundgeschichte erstellen. Du kannst auch aus Dutzenden vorgefertigten Charakteren wählen.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Was ist die beste KI-Begleiter-App 2026?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Für Realismus und Gedächtnis: <a href="/go/secrets" class="text-pink-400">Secrets AI</a>. Für visuelle Anpassung: <a href="/go/dreamgf" class="text-pink-400">DreamGF</a>. Für Beziehungsfokus: <a href="/go/kupid" class="text-pink-400">Kupid AI</a>. Für Bildgenerierung: <a href="/go/promptchan" class="text-pink-400">Promptchan</a>. Für NSFW-Inhalte: <a href="/go/gptgf" class="text-pink-400">GPTGirlfriend</a>.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Wie viel kostet Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Lite: 5,99 €/Monat (~4 €/Jahr). Plus: 9,99 €/Monat (~6,67 €/Jahr). Premium: 19,99 €/Monat (~13,33 €/Jahr). Kostenlose Version mit begrenzten Funktionen verfügbar.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Gibt es eine kostenlose Testversion?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, die kostenlose Version lässt dich Basic-Funktionen ohne Kreditkarte testen. Für Premium-Funktionen kannst du jederzeit upgraden und kündigen.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Kann ich jederzeit kündigen?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, Abonnements können jederzeit ohne Kosten gekündigt werden. Du behältst den Zugang bis zum Ende deines Abrechnungszeitraums.</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-center mb-12">Bereit für einen KI-Begleiter, der sich tatsächlich an dich erinnert?</h2>
+            <p class="text-xl text-gray-300 mb-8">Video-Generierung • Gesprächsgedächtnis • 100% privat • Kostenlose Version verfügbar</p>
+            <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-10 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Kostenlose Testversion starten →</a>
+            <p class="text-gray-400 text-sm mt-4">100% privat • Kostenlose Version verfügbar • Jederzeit kündbar</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Column 1: Navigation -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Navigation</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#what-is" class="text-gray-400 hover:text-pink-400 transition">Was ist es</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-pink-400 transition">Funktionen</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-pink-400 transition">Preise</a></li>
+                        <li><a href="#comparison" class="text-gray-400 hover:text-pink-400 transition">Vergleich</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-pink-400 transition">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 2: Language -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Sprache</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/" class="text-gray-400 hover:text-pink-400 transition">🇬🇧 English</a></li>
+                        <li><a href="/fr/" class="text-gray-400 hover:text-pink-400 transition">🇫🇷 Français</a></li>
+                        <li><a href="/de/" class="text-pink-400">🇩🇪 Deutsch</a></li>
+                        <li><a href="/es/" class="text-gray-400 hover:text-pink-400 transition">🇪🇸 Español</a></li>
+                        <li><a href="/it/" class="text-gray-400 hover:text-pink-400 transition">🇮🇹 Italiano</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Legal -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Rechtliches</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/privacy.html" class="text-gray-400 hover:text-pink-400 transition">Datenschutzerklärung</a></li>
+                        <li><a href="/terms.html" class="text-gray-400 hover:text-pink-400 transition">Nutzungsbedingungen</a></li>
+                        <li><a href="/affiliate-disclosure.html" class="text-gray-400 hover:text-pink-400 transition">Affiliate-Offenlegung</a></li>
+                    </ul>
+                    <p class="text-gray-500 text-sm mt-4">Diese Seite enthält Affiliate-Links. Wir können eine Provision erhalten, wenn du dich über unsere Links anmeldest – ohne zusätzliche Kosten für dich.</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-600 text-sm">
+                © 2026 Secrets AI Guide. Alle Rechte vorbehalten.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
