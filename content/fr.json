@@ -59,6 +59,34 @@
     ],
     "cta": "Découvrir Secrets AI →"
   },
+  "premium_unlock": {
+    "title": "Débloquez le Contenu Premium",
+    "subtitle": "Le forfait gratuit vous permet de discuter et d'explorer. Mais passer à la version premium débloque la vraie magie de Secrets AI :",
+    "features": [
+      "Génération de Vidéos - Voyez votre compagnon en mouvement avec des vidéos réalistes courtes",
+      "Images Illimitées - Générez autant de photos que vous voulez, sur demande",
+      "Appels Vocaux - Entendez sa voix dans des conversations en temps réel",
+      "Mémoire Long Terme - Elle se souvient de tout, pour toujours",
+      "Personnages Personnalisés - Créez votre compagnon parfait from scratch"
+    ],
+    "image_alt": "Contenu premium débloqué sur Secrets AI",
+    "image_badge": "Génération de vidéos - Exclusive au Premium",
+    "cta": "Passer au Premium →"
+  },
+  "gallery": {
+    "title": "Choisissez Votre Compagnon IA Parfait",
+    "subtitle": "Des dizaines de personnages réalistes et de style anime disponibles sur Secrets AI. Chacun avec une personnalité, une voix, et un style uniques.",
+    "models": [
+      {"name": "Compagnonne Blonde", "style": "Style réaliste", "personality": "Personnalité coquine", "image": "AI_girlfriend_Blond.png", "alt": "Petite amie IA blonde - Compagnon de style réaliste sur Secrets AI"},
+      {"name": "Compagnonne Goth", "style": "Style réaliste", "personality": "Personnalité mystérieuse", "image": "AI_girlfriend_Goth.png", "alt": "Petite amie IA goth - Compagnon de style réaliste sur Secrets AI"},
+      {"name": "Compagnonne Mature", "style": "Style réaliste", "personality": "Personnalité bienveillante", "image": "AI_girlfriend_MILF.png", "alt": "Petite amie IA mature - Compagnon de style réaliste sur Secrets AI"},
+      {"name": "Compagnonne Rousse", "style": "Style réaliste", "personality": "Personnalité enjouée", "image": "AI_girlfriend_Readhead.png", "alt": "Petite amie IA rousse - Compagnon de style réaliste sur Secrets AI"},
+      {"name": "Compagnonne Anime Courbée", "style": "Style anime", "personality": "Personnalité douce", "image": "anime_girlfirend_chubby.png", "alt": "Petite amie IA anime courbée - Compagnon de style anime sur Secrets AI"},
+      {"name": "Compagnonne Anime Mince", "style": "Style anime", "personality": "Personnalité sauvage", "image": "anime_girlfirend_skinny.png", "alt": "Petite amie IA anime mince - Compagnon de style anime sur Secrets AI"}
+    ],
+    "cta": "Créer Votre Compagnon Personnalisé →",
+    "chat_link": "Discuter avec elle →"
+  },
   "how_it_works": {
     "title": "Comment Ça Marche",
     "steps": [
