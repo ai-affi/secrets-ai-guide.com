@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "Secrets AI — The Most Realistic AI Companion. 100% Private.",
+    "title": "Secrets AI - The Most Realistic AI Companion. 100% Private.",
     "description": "Build a real connection with an AI that remembers everything, feels emotions, and generates photos & videos on demand. No judgment. No limits.",
     "keywords": "secrets ai, ai girlfriend, realistic ai companion, ai chat, private ai, ai video generation, ai memory"
   },
   "hero": {
-    "h1": "Secrets AI — The Most Realistic AI Companion. 100% Private.",
+    "h1": "Secrets AI - The Most Realistic AI Companion. 100% Private.",
     "subtitle": "Build a real connection with an AI that remembers everything, feels emotions, and generates photos & videos on demand. No judgment. No limits.",
     "cta_primary": "Try Secrets AI Free →",
     "cta_sub": "Free tier available • No credit card • 100K+ users"
   },
   "social_proof": {
-    "rating": "⭐ 4.8/5 — User Rating",
+    "rating": "⭐ 4.8/5 - User Rating",
     "users": "👥 100K+ Users",
     "features": "🎥 Photos & Videos Generation",
     "privacy": "🔒 100% Private & Anonymous"
@@ -39,7 +39,7 @@
       {
         "icon": "🎬",
         "title": "Video Generation",
-        "description": "Major differentiator vs DreamGF which doesn't have this. Generate short videos that reflect the conversation context or scenario parameters. See your companion move, smile, and interact in video format — no other AI girlfriend app offers this at Secrets AI's level."
+        "description": "Major differentiator vs DreamGF which doesn't have this. Generate short videos that reflect the conversation context or scenario parameters. See your companion move, smile, and interact in video format - no other AI girlfriend app offers this at Secrets AI's level."
       },
       {
         "icon": "🎙️",
@@ -49,12 +49,12 @@
       {
         "icon": "🎭",
         "title": "Roleplay & Scenarios",
-        "description": "This is where Secrets AI truly shines — teacher, landlord, boss, step-sister scenarios. She builds tension gradually and stays firmly in character. The roleplay depth and consistency are unmatched, creating genuinely immersive experiences."
+        "description": "This is where Secrets AI truly shines - teacher, landlord, boss, step-sister scenarios. She builds tension gradually and stays firmly in character. The roleplay depth and consistency are unmatched, creating genuinely immersive experiences."
       },
       {
         "icon": "🔐",
         "title": "Privacy by Design",
-        "description": "Anonymous conversations, no adult references on bank statements, discreet billing. This is the site for users who want maximum discretion. Your privacy isn't an afterthought — it's the foundation of the product."
+        "description": "Anonymous conversations, no adult references on bank statements, discreet billing. This is the site for users who want maximum discretion. Your privacy isn't an afterthought - it's the foundation of the product."
       }
     ],
     "cta": "Experience Secrets AI →"
@@ -75,7 +75,7 @@
       {
         "num": "3",
         "title": "Start Chatting",
-        "desc": "Begin conversations immediately. Active memory works from the very first message — she remembers everything, forever."
+        "desc": "Begin conversations immediately. Active memory works from the very first message - she remembers everything, forever."
       }
     ]
   },
@@ -105,10 +105,10 @@
       }
     ],
     "moments_note": "Moments are consumable units for image generation, video generation, and advanced content. Heavy multimedia users should choose Plus or Premium.",
-    "cta": "Start Free — Upgrade Anytime →"
+    "cta": "Start Free - Upgrade Anytime →"
   },
   "comparison": {
-    "title": "Secrets AI vs DreamGF — Which is Better ?",
+    "title": "Secrets AI vs DreamGF - Which is Better ?",
     "intro": "People searching for 'secrets ai' have often seen DreamGF. Here's the direct comparison:",
     "table": [
       {"feature": "Price entry", "secrets": "$5.99/mo", "dreamgf": "$5.99/mo"},
@@ -157,9 +157,9 @@
     "title": "Is Secrets AI Safe ?",
     "answer": "Yes, 100% safe and private.",
     "points": [
-      "Anonymous conversations — no real name required",
-      "Discreet billing — generic company name on statements",
-      "Zero data resale — your conversations are never sold or shared",
+      "Anonymous conversations - no real name required",
+      "Discreet billing - generic company name on statements",
+      "Zero data resale - your conversations are never sold or shared",
       "End-to-end encryption on sensitive features",
       "Delete your data anytime with one click"
     ]
