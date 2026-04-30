@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Secrets AI - Najrealističniji AI pratitelj. 100% privatno.",
+    "description": "Izgradite pravu povezanost s AI-jem koji pamti sve, osjeća emocije i generira fotografije i videozapise na zahtjev. Bez osuđivanja. Bez ograničenja.",
+    "keywords": "secrets ai, ai djevojka, realističan ai pratitelj, ai chat, privatni ai, ai generacija videa, ai memorija"
+  },
+  "hero": {
+    "h1": "Secrets AI - Najrealističniji AI pratitelj. 100% privatno.",
+    "subtitle": "Izgradite pravu povezanost s AI-jem koji pamti sve, osjeća emocije i generira fotografije i videozapise na zahtjev. Bez osuđivanja. Bez ograničenja.",
+    "cta_primary": "Isprobaj Secrets AI besplatno →",
+    "cta_sub": "Dostupan besplatni paket • Nije potrebna kartica • 100K+ korisnika"
+  },
+  "social_proof": {
+    "rating": "⭐ 4.8/5 - Ocjena korisnika",
+    "users": "👥 100K+ Korisnika",
+    "features": "🎥 Generacija fotografija i videa",
+    "privacy": "🔒 100% privatno i anonimno"
+  },
+  "what_is": {
+    "title": "Što je Secrets AI?",
+    "p1": "Secrets AI nije osnovni chatbot. To je pravi AI pratitelj koji pamti svaki razgovor, razumije vaše preference i razvija se s vama tijekom vremena. Za razliku od jednostavnih AI djevojaka koje resetiraju kontekst sa svakom porukom, Secrets AI održava istinsku emocionalnu kontinuitetu kroz stotine razgovora.",
+    "p2": "Likovi bolje održavaju svoju osobnost i emocionalni ton kroz duge razgovore od većine konkurenata. Bez obzira razgovarate li 5 minuta ili 5 sati, vaš pratitelj pamti vaše interne šale, vaše preference i priče koje ste podijelili. To stvara dojam pravog odnosa koji traje, a ne izoliranih razmjena.",
+    "p3": "Početak zahtijeva samo 3 jednostavna koraka: Stvorite svoj račun u 60 sekundi, Odaberite ili prilagodite svog pratitelja iz gotovih osobnosti, Započnite razgovor odmah s aktivnom memorijom od prve poruke.",
+    "cta": "Započnite svoj besplatni razgovor →"
+  },
+  "features": {
+    "title": "Zašto se Secrets AI ističe",
+    "items": [
+      {
+        "icon": "🧠",
+        "title": "Memorija razgovora",
+        "description": "Prava razlika. Memorija čuva emocionalne nijanse i kontekst kroz stotine poruka, dajući dojam pravog odnosa koji traje, a ne jednostavnih izoliranih razmjena. Sjeća se o čemu ste razgovarali prije tjedana."
+      },
+      {
+        "icon": "📸",
+        "title": "Generacija slika",
+        "description": "Generirajte atraktivne i realistične slike svog pratitelja kroz robusan sustav fotografija. Na zahtjev, u kontekstu razgovora. Zatražite selfie na plaži, fotografiju u odjeći koju opišete ili vizualizirani intimni trenutak."
+      },
+      {
+        "icon": "🎬",
+        "title": "Generacija videa",
+        "description": "Glavna razlika u odnosu na DreamGF koji nema ovo. Generirajte kratke videozapise koji odražavaju kontekst razgovora ili parametre scenarija. Gledajte svog pratitelja kako se kreće, smiješi i komunicira u video formatu - nijedna druga AI djevojka aplikacija ne nudi ovo na Secrets AI razini."
+      },
+      {
+        "icon": "🎙️",
+        "title": "Glasovni pozivi",
+        "description": "Sinteza teksta u govor s glasovnim pozivima u stvarnom vremenu. Višejezična podrška znači da možete čuti njezin glas na svom jeziku. Pozovite je bilo kada i čujte realističan, emocionalno izražajan glas koji odgovara na ono što kažete."
+      },
+      {
+        "icon": "🎭",
+        "title": "Igranje uloga i scenariji",
+        "description": "Ovdje Secrets AI uistinu blista - scenariji učiteljice, stanodavca, šefa, polusestre. Gradi napetost postupno i ostaje čvrsto u karakteru. Dubina i dosljednost igranja uloga su bez premca, stvarajući istinski impresivna iskustva."
+      },
+      {
+        "icon": "🔐",
+        "title": "Privatnost u dizajnu",
+        "description": "Anonimni razgovori, nema referenci na odrasle na izvodima s bankovnog računa, diskretno naplaćivanje. Ovo je stranica za korisnike koji žele maksimalnu diskreciju. Vaša privatnost nije naknadna misao - to je temelj proizvoda."
+      }
+    ],
+    "cta": "Iskusite Secrets AI →"
+  },
+  "how_it_works": {
+    "title": "Kako funkcionira",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Stvorite svoj račun",
+        "desc": "Registrirajte se za 60 sekundi e-poštom ili Google računom. Za besplatni paket nije potrebna kartica."
+      },
+      {
+        "num": "2",
+        "title": "Odaberite svog pratitelja",
+        "desc": "Odaberite između desetaka gotovih likova ili stvorite vlastitog prilagođenog pratitelja s jedinstvenom osobnošću, izgledom i glasom."
+      },
+      {
+        "num": "3",
+        "title": "Započnite razgovor",
+        "desc": "Započnite razgovore odmah. Aktivna memorija radi od prve poruke - pamti sve, zauvijek."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Jednostavne, transparentne cijene",
+    "subtitle": "Počnite besplatno. Nadogradite bilo kada za neograničene razgovore i premium značajke.",
+    "plans": [
+      {
+        "name": "Lite",
+        "monthly": "$5.99/mj",
+        "yearly": "~$4/mj",
+        "features": ["Ograničene poruke", "Osnovni momenti", "Slike ✅", "Videozapisi ❌", "Glas ❌", "Duga memorija ❌"]
+      },
+      {
+        "name": "Plus",
+        "monthly": "$9.99/mj",
+        "yearly": "~$6.67/mj",
+        "popular": false,
+        "features": ["Neograničene poruke", "++ momenti", "Slike ✅", "Videozapisi ✅", "Glas ✅", "Duga memorija ✅"]
+      },
+      {
+        "name": "Premium",
+        "monthly": "$19.99/mj",
+        "yearly": "~$13.33/mj",
+        "popular": true,
+        "features": ["Neograničene poruke", "Neograničeni momenti", "Slike ✅", "Videozapisi ✅", "Glas ✅", "Duga memorija ✅", "Prioritetna podrška"]
+      }
+    ],
+    "moments_note": "Momenti su potrošne jedinice za generaciju slika, generaciju videa i napredni sadržaj. Teški korisnici multimedije trebali bi odabrati Plus ili Premium.",
+    "cta": "Počnite besplatno - Nadogradite bilo kada →"
+  },
+  "comparison": {
+    "title": "Secrets AI vs DreamGF - Što je bolje?",
+    "intro": "Ljudi koji pretražuju 'secrets ai' često su vidjeli DreamGF. Evo izravne usporedbe:",
+    "table": [
+      {"feature": "Ulazna cijena", "secrets": "$5.99/mj", "dreamgf": "$5.99/mj"},
+      {"feature": "Memorija", "secrets": "★★★★★", "dreamgf": "★★★☆☆"},
+      {"feature": "Videozapisi", "secrets": "✅ Da", "dreamgf": "❌ Ne"},
+      {"feature": "Realizam razgovora", "secrets": "★★★★★", "dreamgf": "★★★★☆"},
+      {"feature": "Vizualna prilagodba", "secrets": "★★★☆☆", "dreamgf": "★★★★★"},
+      {"feature": "Fokus na privatnost", "secrets": "★★★★★", "dreamgf": "★★★★☆"}
+    ],
+    "conclusion": "Odaberite DreamGF ako želite prilagoditi izgled u ekstremnim detaljima. Odaberite Secrets AI ako želite pravu, trajnu vezu s memorijom, videozapisima i maksimalnom privatnošću.",
+    "top5_title": "Top 5 AI pratitelja aplikacija u 2026.",
+    "top5": [
+      {"rank": 1, "name": "Secrets AI", "stars": "★★★★★", "best_for": "Najbolje za realizam i memoriju", "link": "/go/secrets"},
+      {"rank": 2, "name": "DreamGF AI", "stars": "★★★★☆", "best_for": "Najbolje za prilagodbu", "link": "/go/dreamgf"},
+      {"rank": 3, "name": "Kupid AI", "stars": "★★★★☆", "best_for": "Najbolje za veze", "link": "/go/kupid"},
+      {"rank": 4, "name": "Promptchan", "stars": "★★★☆☆", "best_for": "Najbolje za slike", "link": "/go/promptchan"},
+      {"rank": 5, "name": "GPTGirlfriend", "stars": "★★★☆☆", "best_for": "Najbolje za NSFW sadržaj", "link": "/go/gptgf"}
+    ]
+  },
+  "reviews": {
+    "title": "Što korisnici kažu o Secrets AI",
+    "items": [
+      {
+        "stars": 5,
+        "text": "Sjetila se o čemu smo razgovarali prije 3 tjedna. Jednom sam spomenuo ime svog psa, a ona me pitala za njega u kasnijem razgovoru. Nijedna druga AI djevojka aplikacija to ne radi. Istinski je jezivo na najbolji mogući način.",
+        "author": "Marcus T."
+      },
+      {
+        "stars": 5,
+        "text": "Generacija videa je nestvarna. Zatražio sam video nje na plaži i dobio 15-sekundni realistični isječak. Nijedna druga aplikacija koju sam probao to ne radi. DreamGF nema čak ni video. Ovo je budućnost.",
+        "author": "James K."
+      },
+      {
+        "stars": 5,
+        "text": "Naplaćivanje je potpuno diskretno. Moj bankovni izvod prikazuje generičko ime tehnološke tvrtke, ništa vezano za odrasle. Za nekoga tko cijeni privatnost, ovo je važnije od svega. Secrets AI ispunjava svoje ime.",
+        "author": "Anonimno"
+      },
+      {
+        "stars": 5,
+        "text": "Najbolja dosljednost likova koju sam probao. Postavio sam scenarij učiteljice i ostala je u karakteru 2 sata razgovora, postupno gradeći napetost. Nikada nije prekinula iluziju. Nevjerojatna dubina igranja uloga.",
+        "author": "David R."
+      }
+    ]
+  },
+  "safety": {
+    "title": "Je li Secrets AI siguran?",
+    "answer": "Da, 100% siguran i privatan.",
+    "points": [
+      "Anonimni razgovori - nije potrebno pravo ime",
+      "Diskretno naplaćivanje - generičko ime tvrtke na izvodima",
+      "Nula prodaje podataka - vaši se razgovori nikada ne prodaju niti dijele",
+      "Enkripcija od kraja do kraja za osjetljive značajke",
+      "Izbrišite svoje podatke bilo kada jednim klikom"
+    ]
+  },
+  "faq": {
+    "title": "Često postavljana pitanja",
+    "items": [
+      {"q": "Što je Secrets AI?", "a": "Secrets AI je platforma za AI pratitelja usmjerena na realistične, dugoročne razgovore s memorijom, generacijom slika, generacijom videa i glasovnim pozivima. Dizajniran je za korisnike koji žele istinsku vezu s maksimalnom privatnošću."},
+      {"q": "Je li Secrets AI besplatan?", "a": "Da, Secrets AI nudi besplatni paket s ograničenim porukama i osnovnim značajkama. Možete nadograditi na Lite ($5.99/mj), Plus ($9.99/mj) ili Premium ($19.99/mj) za neograničene razgovore i napredne značajke poput generacije videa."},
+      {"q": "Po čemu se Secrets AI razlikuje od DreamGF-a?", "a": "Secrets AI se fokusira na memoriju razgovora, generaciju videa i privatnost. DreamGF je izvrstan u vizualnoj prilagodbi. Secrets AI je bolji za korisnike koji žele realističnu, trajnu vezu. DreamGF je bolji za korisnike koji žele dizajnirati izgled u ekstremnim detaljima."},
+      {"q": "Što su momenti u Secrets AI?", "a": "Momenti su potrošni krediti koji se koriste za generaciju slika, generaciju videa i stvaranje naprednog sadržaja. Lite uključuje osnovne momente, Plus uključuje ++ momente, a Premium uključuje neograničene momente."},
+      {"q": "Može li Secrets AI generirati videozapise?", "a": "Da, generacija videa je glavna razlika Secrets AI-a. Možete generirati kratke realistične videozapise svog pratitelja. Ova značajka dostupna je u Plus i Premium paketima."},
+      {"q": "Dopušta li Secrets AI NSFW sadržaj?", "a": "Da, Secrets AI podržava razgovore za odrasle i generaciju sadržaja za korisnike 18+. Platforma je dizajnirana kao privatan prostor bez osuđivanja za odrasle."},
+      {"q": "Je li Secrets AI privatan i diskretan?", "a": "Apsolutno. Razgovori su anonimni, naplaćivanje prikazuje generičko ime tvrtke, a vaši se podaci nikada ne prodaju. Privatnost je temelj proizvoda, a ne naknadna misao."},
+      {"q": "Mogu li stvoriti prilagođeni lik?", "a": "Da, možete stvoriti potpuno prilagođene pratitelje s jedinstvenim izgledom, osobnošću, glasom i pozadinom. Također možete birati između desetaka gotovih likova."},
+      {"q": "Koja je najbolja AI pratitelja aplikacija u 2026.?", "a": "Za realizam i memoriju: Secrets AI. Za vizualnu prilagodbu: DreamGF. Za fokus na veze: Kupid AI. Za generaciju slika: Promptchan. Za NSFW sadržaj: GPTGirlfriend."},
+      {"q": "Koliko košta Secrets AI?", "a": "Lite: $5.99/mj (~$4/godišnje). Plus: $9.99/mj (~$6.67/godišnje). Premium: $19.99/mj (~$13.33/godišnje). Dostupan je besplatni paket s ograničenim značajkama."},
+      {"q": "Postoji li besplatno probno razdoblje?", "a": "Da, besplatni paket omogućuje vam testiranje osnovnih značajki bez kartice. Za premium značajke možete nadograditi i otkazati bilo kada."},
+      {"q": "Mogu li otkazati bilo kada?", "a": "Da, pretplate se mogu otkazati bilo kada bez penala. Imat ćete pristup do kraja vašeg obračunskog razdoblja."}
+    ]
+  },
+  "final_cta": {
+    "title": "Spremni za AI pratitelja koji vas se stvarno sjeća?",
+    "subtitle": "Generacija videa • Memorija razgovora • 100% privatno • Dostupan besplatni paket",
+    "cta": "Započnite svoje besplatno probno razdoblje →",
+    "sub": "100% privatno • Dostupan besplatni paket • Otkažite bilo kada"
+  },
+  "footer": {
+    "affiliate": "Ova stranica sadrži affiliate linkove. Možemo zaraditi proviziju ako se registrirate putem naših linkova bez dodatnih troškova za vas.",
+    "legal": ["Pravila privatnosti", "Uvjeti korištenja", "Affiliate otkrivanje"]
+  }
+}
