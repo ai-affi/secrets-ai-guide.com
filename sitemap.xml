@@ -40,6 +40,62 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Suédois -->
+  <url>
+    <loc>https://secrets-ai-guide.com/sv/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Polonais -->
+  <url>
+    <loc>https://secrets-ai-guide.com/pl/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Portugais -->
+  <url>
+    <loc>https://secrets-ai-guide.com/pt/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Croate -->
+  <url>
+    <loc>https://secrets-ai-guide.com/hr/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Hongrois -->
+  <url>
+    <loc>https://secrets-ai-guide.com/hu/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Néerlandais -->
+  <url>
+    <loc>https://secrets-ai-guide.com/nl/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Roumain -->
+  <url>
+    <loc>https://secrets-ai-guide.com/ro/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Pages légales (EN seulement, pas de traduction) -->
   <url>
     <loc>https://secrets-ai-guide.com/privacy.html</loc>
