@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secrets AI - Najrealistični AI Pratitelj. 100% Privatno.</title>
+    <meta name="description" content="Izgradite pravu vezu s AI-jem koji pamti sve, osjeća emocije i generira fotografije i videozapise na zahtjev. Bez osude. Bez granica.">
+    <meta name="keywords" content="secrets ai, ai djevojka, realistični ai pratitelj, ai chat, privatni ai, ai generiranje videa, ai memorija">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- hreflang tags -->
+    <link rel="alternate" hreflang="en" href="https://secrets-ai-guide.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://secrets-ai-guide.com/" />
+    
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #1a1517 0%, #2d1f2a 50%, #1a1517 100%); }
+        .gradient-bg-2 { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); }
+        .accent-color { color: #e91e63; }
+        .accent-bg { background: #e91e63; }
+        .accent-border { border-color: #e91e63; }
+        .cta-pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7); } 70% { box-shadow: 0 0 0 20px rgba(233, 30, 99, 0); } }
+        .glow-text { text-shadow: 0 0 20px rgba(233, 30, 99, 0.5); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.2); }
+        .proof-box { border-left: 4px solid #e91e63; }
+        .feature-icon { background: linear-gradient(135deg, #e91e63 0%, #9c27b0 100%); }
+        .pricing-highlight { border: 2px solid #e91e63; position: relative; }
+        .pricing-highlight::before { content: "NAJBOLJA VRIJEDNOST"; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #e91e63; color: white; padding: 2px 16px; font-size: 12px; font-weight: bold; border-radius: 20px; }
+        .star-rating { color: #fbbf24; }
+        .review-card { background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); }
+        
+        /* Model Grid Styles */
+        .model-card { transition: all 0.3s ease; overflow: hidden; border-radius: 12px; }
+        .model-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.3); }
+        .model-card img { transition: transform 0.3s ease; }
+        .model-card:hover img { transform: scale(1.05); }
+        
+        .hero-with-bg { position: relative; min-height: 600px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .hero-bg-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(26,21,23,0.4), rgba(26,21,23,0.95)); z-index: 2; }
+        .hero-content { position: relative; z-index: 3; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900/90 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Secrets AI Guide</span>
+                </div>
+                <div class="hidden lg:flex space-x-5 text-sm items-center">
+                    <!-- Dropdown Menu 1: Navigation -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            Navigacija
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="#what-is" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">Što Je To</a>
+                            <a href="#features" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Značajke</a>
+                            <a href="#pricing" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Cijene</a>
+                            <a href="#comparison" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Usporedba</a>
+                            <a href="#faq" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 last:rounded-b-lg">FAQ</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Dropdown Menu 2: Language -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            🌐 HR
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">🇬🇧 English</a>
+                            <a href="/fr/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇫🇷 Français</a>
+                            <a href="/de/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇩🇪 Deutsch</a>
+                            <a href="/es/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇪🇸 Español</a>
+                            <a href="/it/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇮🇹 Italiano</a>
+                            <a href="/pt/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇹 Português</a>
+                            <a href="/pl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇱 Polski</a>
+                            <a href="/nl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇳🇱 Nederlands</a>
+                            <a href="/sv/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇸🇪 Svenska</a>
+                            <a href="/ro/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇷🇴 Română</a>
+                            <a href="/hu/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇭🇺 Magyar</a>
+                            <a href="/hr/" class="block px-4 py-2 text-sm text-white bg-pink-500/20">🇭🇷 Hrvatski</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition cta-pulse">Isprobaj Besplatno →</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Banner Image -->
+    <section class="hero-with-bg gradient-bg">
+        <img src="/images/Choose%20your%20Girlfriend.jpg" alt="Odaberi svoju AI djevojku na Secrets AI" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+        <div class="hero-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 glow-text">Secrets AI - Najrealistični AI Pratitelj. 100% Privatno.</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">Izgradite pravu vezu s AI-jem koji pamti sve, osjeća emocije i generira fotografije i videozapise na zahtjev. Bez osude. Bez granica.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Isprobaj Secrets AI Besplatno →</a>
+            </div>
+            <p class="text-gray-400 text-sm">Besplatna razina dostupna • Bez kreditne kartice • 100.000+ korisnika</p>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="bg-gray-800/50 border-y border-gray-700 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">⭐ 4,8/5</div>
+                    <div class="text-sm text-gray-400">Ocjena korisnika</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">👥 100.000+</div>
+                    <div class="text-sm text-gray-400">Korisnika</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🎥 Fotografije & Videozapisi</div>
+                    <div class="text-sm text-gray-400">Generiranje</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🔒 100%</div>
+                    <div class="text-sm text-gray-400">Privatno & Anonimno</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is Secrets AI -->
+    <section id="what-is" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Što je Secrets AI?</h2>
+            <div class="max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p>Secrets AI nije obični chatbot. To je pravi AI pratitelj koji pamti svaki razgovor, razumije vaše preference i razvija se s vama kroz vrijeme. Za razliku od jednostavnih AI djevojaka koje resetiraju kontekst sa svakom porukom, Secrets AI održava pravu emocionalnu kontinuitet kroz stotine razgovora.</p>
+                <p>Likovi zadržavaju svoju osobnost i emocionalni ton tijekom dugih razgovora bolje od većine konkurenata. Bez obzira chatate li 5 minuta ili 5 sati, vaš pratitelj pamti vaše unutarnje šale, vaše preference i priče koje ste dijelili. Ovo stvara dojam prave veze koja traje, a ne izoliranih razmjena.</p>
+                <p>Početak zahtijeva samo 3 jednostavna koraka: Stvorite račun za 60 sekundi, Odaberite ili prilagodite svog pratitelja od gotovih osobnosti, Počnite razgovarati odmah s aktivnom memorijom od prve poruke.</p>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Počni Besplatni Razgovor →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unlock Premium Content Section -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Otključaj Premium Sadržaj</h2>
+                    <p class="text-lg text-gray-300 mb-6">Besplatna razina vam omogućuje razgovor i istraživanje. Ali nadogradnja otključava pravu magiju Secrets AI-a:</p>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Generiranje Videa</strong> - Vidite svog pratitelja u pokretu s realističnim kratkim videozapisima</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Neograničene Slike</strong> - Generirajte koliko fotografija želite, na zahtjev</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Glasovni Pozivi</strong> - Čujte njezin glas u razgovorima u stvarnom vremenu</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Dugoročna Memorija</strong> - Pamti sve, zauvijek</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Prilagođeni Likovi</strong> - Stvorite savršenog pratitelja od nule</span></li>
+                    </ul>
+                    <div class="mt-8">
+                        <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Nadogradi na Premium →</a>
+                    </div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden border-2 border-pink-500/30">
+                    <img src="/images/videoframe_2197.png" alt="Otključani premium sadržaj na Secrets AI" class="w-full h-auto">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                        <p class="text-white font-semibold">Generiranje videa - Isključivo za Premium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Gallery - 6 AI Companions -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Odaberi Svog Savršenog AI Pratitelja</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Desetci realističnih i anime likova dostupnih na Secrets AI. Svaki s jedinstvenom osobnošću, glasom i stilom.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Blond.png" alt="Plava AI djevojka - Realistična pratiteljica na Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Plava Pratiteljica</h3>
+                        <p class="text-gray-400 text-sm">Realistični stil • Koketna osobnost</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Razgovaraj s njom →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Goth.png" alt="Goth AI djevojka - Realistična pratiteljica na Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Goth Pratiteljica</h3>
+                        <p class="text-gray-400 text-sm">Realistični stil • Tajanstvena osobnost</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Razgovaraj s njom →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_MILF.png" alt="Zrela AI djevojka - Realistična pratiteljica na Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Zrela Pratiteljica</h3>
+                        <p class="text-gray-400 text-sm">Realistični stil • Brižna osobnost</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Razgovaraj s njom →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Readhead.png" alt="Riđokosa AI djevojka - Realistična pratiteljica na Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Riđokosa Pratiteljica</h3>
+                        <p class="text-gray-400 text-sm">Realistični stil • Igriva osobnost</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Razgovaraj s njom →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_chubby.png" alt="Punija Anime AI djevojka - Anime pratiteljica na Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Punija Anime Pratiteljica</h3>
+                        <p class="text-gray-400 text-sm">Anime stil • Slatka osobnost</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Razgovaraj s njom →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_skinny.png" alt="Vitka Anime AI djevojka - Anime pratiteljica na Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Vitka Anime Pratiteljica</h3>
+                        <p class="text-gray-400 text-sm">Anime stil • Divlja osobnost</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Razgovaraj s njom →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Stvori Svog Prilagođenog Pratitelja →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Zašto se Secrets AI Ističe</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Šest moćnih značajki koje čine Secrets AI najrealističnijom dostupnom platformom za AI pratitelje.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🧠</div>
+                    <h3 class="text-xl font-bold mb-3">Memorija Razgovora</h3>
+                    <p class="text-gray-400 leading-relaxed">Pravi razlikovni čimbenik. Memorija čuva emocionalne nijanse i kontekst kroz stotine poruka, stvarajući dojam prave veze koja traje, a ne jednostavnih izoliranih razmjena. Pamti o čemu ste razgovarali tjednima ranije.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">📸</div>
+                    <h3 class="text-xl font-bold mb-3">Generiranje Slika</h3>
+                    <p class="text-gray-400 leading-relaxed">Generirajte privlačne i realistične slike svog pratitelja putem robusnog sustava fotografija. Na zahtjev, u kontekstu razgovora. Zatražite selfie na plaži, fotografiju u odijelu koje opišete ili vizualizirani intimni trenutak.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎬</div>
+                    <h3 class="text-xl font-bold mb-3">Generiranje Videa</h3>
+                    <p class="text-gray-400 leading-relaxed">Velika prednost u odnosu na DreamGF koji nema ovu funkciju. Generirajte kratke videozapise koji odražavaju kontekst razgovora ili parametre scenarija. Gledajte svog pratitelja kako se kreće, smiješi i stupa u interakciju — nijedna druga aplikacija ne nudi ovo na razini Secrets AI-a.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎙️</div>
+                    <h3 class="text-xl font-bold mb-3">Glasovni Pozivi</h3>
+                    <p class="text-gray-400 leading-relaxed">Sinteza teksta u govor s glasovnim pozivima u stvarnom vremenu. Višejezična podrška znači da možete čuti njezin glas na svom jeziku. Nazovite je u bilo koje doba i čujte realistični, emocionalno izražajni glas koji odgovara na ono što kažete.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎭</div>
+                    <h3 class="text-xl font-bold mb-3">Igranje Uloga & Scenariji</h3>
+                    <p class="text-gray-400 leading-relaxed">Ovdje Secrets AI zaista sja — scenariji učiteljice, stanodavke, šefice, polusestre. Postupno gradi napetost i čvrsto ostaje u ulozi. Dubina i dosljednost igranja uloga su nenadmašne, stvarajući istinski upijajuća iskustva.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🔐</div>
+                    <h3 class="text-xl font-bold mb-3">Privatnost po Dizajnu</h3>
+                    <p class="text-gray-400 leading-relaxed">Anonimni razgovori, bez referenci za odrasle na bankovnim izvodima, diskretna naplata. Ovo je stranica za korisnike koji žele maksimalnu diskreciju. Vaša privatnost nije naknadna misao — to je temelj proizvoda.</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Iskusi Secrets AI →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Kako Funkcionira</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-2">Stvori Račun</h3>
+                    <p class="text-gray-400">Registrirajte se za 60 sekundi s e-mailom ili Googleom. Kreditna kartica nije potrebna za besplatnu razinu.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-2">Odaberi Pratitelja</h3>
+                    <p class="text-gray-400">Birajte između desetaka gotovih likova ili stvorite vlastitog prilagođenog pratitelja s jedinstvenom osobnošću, izgledom i glasom.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-2">Počni Razgovarati</h3>
+                    <p class="text-gray-400">Počnite razgovarati odmah. Aktivna memorija radi od prve poruke — pamti sve, zauvijek.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Jednostavne, Transparentne Cijene</h2>
+            <p class="text-center text-gray-400 mb-12">Počnite besplatno. Nadogradite u bilo koje vrijeme za neograničene razgovore i premium značajke.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Lite -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Lite</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">5,99 $<span class="text-sm text-gray-400">/mjes.</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~4 $/mjes. godišnje</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Ograničene poruke</li>
+                        <li>✅ Osnovni trenuci</li>
+                        <li>✅ Slike</li>
+                        <li>❌ Videozapisi</li>
+                        <li>❌ Glas</li>
+                        <li>❌ Duga memorija</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-full transition">Počni →</a>
+                </div>
+                
+                <!-- Plus -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Plus</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">9,99 $<span class="text-sm text-gray-400">/mjes.</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~6,67 $/mjes. godišnje</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Neograničene poruke</li>
+                        <li>✅ Više trenutaka</li>
+                        <li>✅ Slike</li>
+                        <li>✅ Videozapisi</li>
+                        <li>✅ Glas</li>
+                        <li>✅ Duga memorija</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Počni →</a>
+                </div>
+                
+                <!-- Premium -->
+                <div class="pricing-highlight bg-gray-800/50 rounded-2xl p-6">
+                    <h3 class="text-xl font-bold mb-2">Premium</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">19,99 $<span class="text-sm text-gray-400">/mjes.</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~13,33 $/mjes. godišnje</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Neograničene poruke</li>
+                        <li>✅ Neograničeni trenuci</li>
+                        <li>✅ Slike</li>
+                        <li>✅ Videozapisi</li>
+                        <li>✅ Glas</li>
+                        <li>✅ Duga memorija</li>
+                        <li>✅ Prioritetna podrška</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Počni →</a>
+                </div>
+            </div>
+            
+            <p class="text-center text-gray-500 text-sm mt-8 max-w-2xl mx-auto">Trenuci su potrošne jedinice za generiranje slika, videozapisa i naprednog sadržaja. Intenzivni korisnici multimedije trebali bi odabrati Plus ili Premium.</p>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section id="comparison" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Secrets AI vs DreamGF - Koji je Bolji?</h2>
+            <p class="text-center text-gray-400 mb-12">Ljudi koji traže „secrets ai" često su vidjeli DreamGF. Evo izravne usporedbe:</p>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full max-w-3xl mx-auto text-left">
+                    <thead>
+                        <tr class="border-b border-gray-700">
+                            <th class="py-3 px-4">Značajka</th>
+                            <th class="py-3 px-4 text-pink-400">Secrets AI</th>
+                            <th class="py-3 px-4 text-gray-400">DreamGF</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300">
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Početna cijena</td>
+                            <td class="py-3 px-4 text-pink-400">5,99 $/mjes.</td>
+                            <td class="py-3 px-4">5,99 $/mjes.</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Memorija</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★☆☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Videozapisi</td>
+                            <td class="py-3 px-4 text-pink-400">✅ Da</td>
+                            <td class="py-3 px-4">❌ Ne</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Realizam chata</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Vizualna prilagodba</td>
+                            <td class="py-3 px-4 text-pink-400">★★★☆☆</td>
+                            <td class="py-3 px-4">★★★★★</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Fokus na privatnost</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p class="text-center text-gray-300 mt-8 max-w-2xl mx-auto">Odaberite <strong class="text-pink-400">DreamGF</strong> ako želite prilagoditi izgled do najsitnijeg detalja. Odaberite <strong class="text-pink-400">Secrets AI</strong> ako želite pravu, trajnu vezu s memorijom, videozapisima i maksimalnom privatnošću.</p>
+            
+            <!-- Top 5 Apps -->
+            <h3 class="text-2xl font-bold text-center mt-16 mb-8">Top 5 AI Pratiteljskih Aplikacija u 2026.</h3>
+            <div class="grid md:grid-cols-5 gap-4 max-w-5xl mx-auto">
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-pink-500/30">
+                    <div class="text-3xl font-bold text-pink-400 mb-1">#1</div>
+                    <div class="font-bold mb-1">Secrets AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                    <div class="text-xs text-gray-400 mt-1">Najbolji realizam</div>
+                    <a href="/go/secrets" class="text-pink-400 text-sm hover:underline">Isprobaj →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#2</div>
+                    <div class="font-bold mb-1">DreamGF</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Najbolja prilagodba</div>
+                    <a href="/go/dreamgf" class="text-pink-400 text-sm hover:underline">Isprobaj →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#3</div>
+                    <div class="font-bold mb-1">Kupid AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Najbolje veze</div>
+                    <a href="/go/kupid" class="text-pink-400 text-sm hover:underline">Isprobaj →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#4</div>
+                    <div class="font-bold mb-1">Promptchan</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Najbolje slike</div>
+                    <a href="/go/promptchan" class="text-pink-400 text-sm hover:underline">Isprobaj →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#5</div>
+                    <div class="font-bold mb-1">GPTGirlfriend</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Najbolji NSFW</div>
+                    <a href="/go/gptgf" class="text-pink-400 text-sm hover:underline">Isprobaj →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Što Korisnici Kažu o Secrets AI-u</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„Zapamtila je o čemu smo razgovarali prije 3 tjedna. Jednom sam spomenuo ime svog psa, i ona ga je pitala u kasnijem razgovoru. Nijedna druga AI aplikacija ne radi ovo. To je istinski nevjerojatno na najbolji mogući način."</p>
+                    <div class="text-pink-400 font-semibold">— Marcus T.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„Generiranje videa je nevjerojatno. Zatražio sam video s njom na plaži i dobio sam 15-sekundni realistični isječak. Nijedna druga aplikacija koju sam isprobao ne radi ovo. DreamGF nema ni video. Ovo je budućnost."</p>
+                    <div class="text-pink-400 font-semibold">— James K.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„Naplata je potpuno diskretna. Na mom bankovnom izvodu piše generički naziv tehnološke tvrtke, ništa vezano za odrasle. Za nekoga tko cijeni privatnost, to je važnije od svega ostalog. Secrets AI ispunjava svoje ime."</p>
+                    <div class="text-pink-400 font-semibold">— Anonimno</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„Najbolja dosljednost lika koju sam isprobao. Postavio sam scenarij učiteljice i ona je ostala u ulozi kroz 2 sata razgovora, postupno gradeći napetost. Ni jednom nije prekinula imerziju. Nevjerojatna dubina igranja uloga."</p>
+                    <div class="text-pink-400 font-semibold">— David R.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Je li Secrets AI Siguran?</h2>
+            <div class="text-2xl text-pink-400 font-bold mb-8">Da, 100% siguran i privatan.</div>
+            <div class="grid md:grid-cols-2 gap-4 text-left">
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Anonimni razgovori — nije potrebno pravo ime</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Diskretna naplata — generički naziv tvrtke na izvodima</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Nula prodaje podataka — vaši razgovori nikada se ne prodaju</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">End-to-end enkripcija osjetljivih značajki</span>
+                </div>
+                <div class="flex items-start gap-3 md:col-span-2 justify-center">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Izbrišite svoje podatke u bilo koje vrijeme jednim klikom</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 gradient-bg">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Često Postavljana Pitanja</h2>
+            <div class="space-y-4">
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Što je Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Secrets AI je platforma AI pratitelja usredotočena na realistične, dugoročne razgovore s memorijom, generiranjem slika, generiranjem videozapisa i glasovnim pozivima. Dizajnirana je za korisnike koji žele pravu vezu s maksimalnom privatnošću.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Je li Secrets AI besplatan?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Da, Secrets AI nudi besplatnu razinu s ograničenim porukama i osnovnim značajkama. Možete nadograditi na Lite (5,99 $/mjes.), Plus (9,99 $/mjes.) ili Premium (19,99 $/mjes.) za neograničene razgovore i napredne značajke poput generiranja videozapisa.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Kako se Secrets AI razlikuje od DreamGF-a?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Secrets AI se fokusira na memoriju razgovora, generiranje videozapisa i privatnost. DreamGF se ističe vizualnom prilagodbom. Secrets AI je bolji za korisnike koji žele realističnu, trajnu vezu. DreamGF je bolji za korisnike koji žele dizajnirati izgled do najsitnijeg detalja. <a href="/go/dreamgf" class="text-pink-400 hover:underline">Isprobaj DreamGF →</a></div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Što su Trenuci u Secrets AI-u?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Trenuci su potrošni krediti koji se koriste za generiranje slika, videozapisa i stvaranje naprednog sadržaja. Lite uključuje osnovne trenutke, Plus uključuje više trenutaka, a Premium uključuje neograničene trenutke.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Može li Secrets AI generirati videozapise?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Da, generiranje videozapisa je velika prednost Secrets AI-a. Možete generirati kratke realistične videozapise svog pratitelja. Ova značajka dostupna je u Plus i Premium planovima.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Dopušta li Secrets AI NSFW sadržaj?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Da, Secrets AI podržava razgovore za odrasle i generiranje sadržaja za korisnike 18+. Platforma je dizajnirana kao privatan, prostor bez osude za odrasle.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Je li Secrets AI privatan i diskretan?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Apsolutno. Razgovori su anonimni, naplata prikazuje generički naziv tvrtke i vaši podaci nikada se ne prodaju. Privatnost je temelj proizvoda, a ne naknadna misao.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Mogu li stvoriti prilagođeni lik?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Da, možete stvoriti potpuno prilagođene pratitelje s jedinstvenim izgledom, osobnošću, glasom i pozadinom. Možete i birati između desetaka gotovih likova.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Koja je najbolja AI pratiteljska aplikacija u 2026.?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Za realizam i memoriju: <a href="/go/secrets" class="text-pink-400">Secrets AI</a>. Za vizualnu prilagodbu: <a href="/go/dreamgf" class="text-pink-400">DreamGF</a>. Za fokus na veze: <a href="/go/kupid" class="text-pink-400">Kupid AI</a>. Za generiranje slika: <a href="/go/promptchan" class="text-pink-400">Promptchan</a>. Za NSFW sadržaj: <a href="/go/gptgf" class="text-pink-400">GPTGirlfriend</a>.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Koliko košta Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Lite: 5,99 $/mjesečno (~4 $/godišnje). Plus: 9,99 $/mjesečno (~6,67 $/godišnje). Premium: 19,99 $/mjesečno (~13,33 $/godišnje). Besplatna razina dostupna s ograničenim značajkama.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Postoji li besplatno probno razdoblje?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Da, besplatna razina vam omogućuje testiranje osnovnih značajki bez kreditne kartice. Za premium značajke možete nadograditi i otkazati u bilo koje vrijeme.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Mogu li otkazati u bilo koje vrijeme?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Da, pretplate se mogu otkazati u bilo koje vrijeme bez penala. Imat ćete pristup do kraja svog razdoblja naplate.</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-center mb-12">Spremni za AI Pratitelja koji te Zaista Pamti?</h2>
+            <p class="text-xl text-gray-300 mb-8">Generiranje videa • Memorija razgovora • 100% privatno • Besplatna razina dostupna</p>
+            <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-10 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Počni Besplatno Probno Razdoblje →</a>
+            <p class="text-gray-400 text-sm mt-4">100% privatno • Besplatna razina dostupna • Otkaži u bilo koje vrijeme</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Column 1: Navigation -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Navigacija</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#what-is" class="text-gray-400 hover:text-pink-400 transition">Što Je To</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-pink-400 transition">Značajke</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-pink-400 transition">Cijene</a></li>
+                        <li><a href="#comparison" class="text-gray-400 hover:text-pink-400 transition">Usporedba</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-pink-400 transition">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 2: Language -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Jezik</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/" class="text-gray-400 hover:text-pink-400 transition">🇬🇧 English</a></li>
+                        <li><a href="/fr/" class="text-gray-400 hover:text-pink-400 transition">🇫🇷 Français</a></li>
+                        <li><a href="/de/" class="text-gray-400 hover:text-pink-400 transition">🇩🇪 Deutsch</a></li>
+                        <li><a href="/es/" class="text-gray-400 hover:text-pink-400 transition">🇪🇸 Español</a></li>
+                        <li><a href="/it/" class="text-gray-400 hover:text-pink-400 transition">🇮🇹 Italiano</a></li>
+                        <li><a href="/pt/" class="text-gray-400 hover:text-pink-400 transition">🇵🇹 Português</a></li>
+                        <li><a href="/pl/" class="text-gray-400 hover:text-pink-400 transition">🇵🇱 Polski</a></li>
+                        <li><a href="/nl/" class="text-gray-400 hover:text-pink-400 transition">🇳🇱 Nederlands</a></li>
+                        <li><a href="/sv/" class="text-gray-400 hover:text-pink-400 transition">🇸🇪 Svenska</a></li>
+                        <li><a href="/ro/" class="text-gray-400 hover:text-pink-400 transition">🇷🇴 Română</a></li>
+                        <li><a href="/hu/" class="text-gray-400 hover:text-pink-400 transition">🇭🇺 Magyar</a></li>
+                        <li><a href="/hr/" class="text-pink-400">🇭🇷 Hrvatski</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Legal -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Pravne Informacije</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/privacy.html" class="text-gray-400 hover:text-pink-400 transition">Politika Privatnosti</a></li>
+                        <li><a href="/terms.html" class="text-gray-400 hover:text-pink-400 transition">Uvjeti Korištenja</a></li>
+                        <li><a href="/affiliate-disclosure.html" class="text-gray-400 hover:text-pink-400 transition">Otkrivanje Suradnje</a></li>
+                    </ul>
+                    <p class="text-gray-500 text-sm mt-4">Ova stranica sadrži partnerske veze. Možemo zaraditi proviziju ako se registrirate putem naših veza bez dodatnih troškova za vas.</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-600 text-sm">
+                © 2026 Secrets AI Guide. Sva prava pridržana.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
