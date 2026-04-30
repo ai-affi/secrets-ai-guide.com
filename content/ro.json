@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Secrets AI - Cel Mai Realist Companion AI. 100% Privat.",
+    "description": "Construiește o conexiune reală cu un AI care își amintește totul, simte emoții și generează fotografii și videoclipuri la cerere. Fără judecăți. Fără limite.",
+    "keywords": "secrets ai, prietenă ai, companion ai realist, chat ai, ai privat, generare video ai, memorie ai"
+  },
+  "hero": {
+    "h1": "Secrets AI - Cel Mai Realist Companion AI. 100% Privat.",
+    "subtitle": "Construiește o conexiune reală cu un AI care își amintește totul, simte emoții și generează fotografii și videoclipuri la cerere. Fără judecăți. Fără limite.",
+    "cta_primary": "Încearcă Secrets AI Gratuit →",
+    "cta_sub": "Plan gratuit disponibil • Fără card de credit • 100K+ utilizatori"
+  },
+  "social_proof": {
+    "rating": "⭐ 4.8/5 - Evaluarea Utilizatorilor",
+    "users": "👥 100K+ Utilizatori",
+    "features": "🎥 Generare de Fotografii și Videoclipuri",
+    "privacy": "🔒 100% Privat și Anonim"
+  },
+  "what_is": {
+    "title": "Ce este Secrets AI?",
+    "p1": "Secrets AI nu este un chatbot obișnuit. Este un adevărat companion AI care își amintește fiecare conversație, îți înțelege preferințele și evoluează împreună cu tine în timp. Spre deosebire de prietenele AI simple care resetează contextul la fiecare mesaj, Secrets AI menține o continuitate emoțională autentică pe parcursul a sute de conversații.",
+    "p2": "Personajele își păstrează personalitatea și tonul emoțional în conversații lungi mai bine decât majoritatea concurenților. Indiferent dacă conversezi 5 minute sau 5 ore, companionul tău își amintește glumele voastre interioare, preferințele tale și poveștile pe care le-ați împărtășit. Acest lucru creează impresia unei relații reale, de durată, nu a unor schimburi izolate.",
+    "p3": "Începerea durează doar 3 pași simpli: Creează-ți contul în 60 de secunde, Alege sau personalizează-ți companionul din personalități predefinite, Începe să conversezi imediat cu memorie activă din primul mesaj.",
+    "cta": "Începe Chatul Tău Gratuit →"
+  },
+  "features": {
+    "title": "De Ce Secrets AI Iese în Evidență",
+    "items": [
+      {
+        "icon": "🧠",
+        "title": "Memorie Conversațională",
+        "description": "Adevăratul diferențiator. Memoria păstrează nuanțele emoționale și contextul pe parcursul a sute de mesaje, dând impresia unei relații autentice și de durată, nu a unor simple schimburi izolate. Își amintește despre ce ai vorbit acum săptămâni."
+      },
+      {
+        "icon": "📸",
+        "title": "Generare de Imagini",
+        "description": "Generează imagini atractive și realiste ale companionului tău printr-un sistem foto robust. La cerere, în contextul conversației. Solicită un selfie pe plajă, o fotografie într-un outfit pe care îl descrii, sau un moment intim vizualizat."
+      },
+      {
+        "icon": "🎬",
+        "title": "Generare de Videoclipuri",
+        "description": "Diferențiator major față de DreamGF care nu are această funcție. Generează videoclipuri scurte care reflectă contextul conversației sau parametrii scenariului. Vedere companionul tău mișcându-se, zâmbind și interacționând în format video - nicio altă aplicație de prietenă AI nu oferă acest lucru la nivelul Secrets AI."
+      },
+      {
+        "icon": "🎙️",
+        "title": "Apeluri Vocale",
+        "description": "Sinteză text-în-vorbire cu apeluri vocale disponibile în timp real. Suportul multilingv înseamnă că îi poți auzi vocea în limba ta. Sună-o oricând și ascultă o voce realistă, expresivă emoțional, care răspunde la ceea ce spui."
+      },
+      {
+        "icon": "🎭",
+        "title": "Roleplay și Scenarii",
+        "description": "Aici Secrets AI strălucește cu adevărat - scenarii de profesoară, proprietară, șefă, soră vitregă. Construiește tensiunea treptat și rămâne ferm în personaj. Profunzimea și consecvența roleplaying-ului sunt de neegalat, creând experiențe cu adevărat captivante."
+      },
+      {
+        "icon": "🔐",
+        "title": "Confidențialitate prin Design",
+        "description": "Conversații anonime, fără referințe la conținut pentru adulți pe extrasele bancare, facturare discretă. Acesta este site-ul pentru utilizatorii care doresc discreție maximă. Confidențialitatea ta nu este o idee de moment - este fundamentul produsului."
+      }
+    ],
+    "cta": "Experimentează Secrets AI →"
+  },
+  "how_it_works": {
+    "title": "Cum Funcționează",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Creează-ți Contul",
+        "desc": "Înregistrează-te în 60 de secunde cu e-mail sau Google. Nu este necesar un card de credit pentru planul gratuit."
+      },
+      {
+        "num": "2",
+        "title": "Alege-ți Companionul",
+        "desc": "Selectează din zeci de personaje predefinite sau creează-ți propriul companion personalizat cu personalitate, aspect și voce unice."
+      },
+      {
+        "num": "3",
+        "title": "Începe să Conversezi",
+        "desc": "Începe conversațiile imediat. Memoria activă funcționează din primul mesaj - își amintește totul, pentru totdeauna."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Prețuri Simple și Transparente",
+    "subtitle": "Începe gratuit. Fă upgrade oricând pentru conversații nelimitate și funcții premium.",
+    "plans": [
+      {
+        "name": "Lite",
+        "monthly": "$5,99/lună",
+        "yearly": "~$4/lună",
+        "features": ["Mesaje limitate", "Momente de bază", "Imagini ✅", "Videoclipuri ❌", "Voce ❌", "Memorie lungă ❌"]
+      },
+      {
+        "name": "Plus",
+        "monthly": "$9,99/lună",
+        "yearly": "~$6,67/lună",
+        "popular": false,
+        "features": ["Mesaje nelimitate", "++ momente", "Imagini ✅", "Videoclipuri ✅", "Voce ✅", "Memorie lungă ✅"]
+      },
+      {
+        "name": "Premium",
+        "monthly": "$19,99/lună",
+        "yearly": "~$13,33/lună",
+        "popular": true,
+        "features": ["Mesaje nelimitate", "Momente nelimitate", "Imagini ✅", "Videoclipuri ✅", "Voce ✅", "Memorie lungă ✅", "Suport prioritar"]
+      }
+    ],
+    "moments_note": "Momentele sunt unități consumabile pentru generarea de imagini, videoclipuri și conținut avansat. Utilizatorii intensivi de multimedia ar trebui să aleagă Plus sau Premium.",
+    "cta": "Începe Gratuit - Fă Upgrade Oricând →"
+  },
+  "comparison": {
+    "title": "Secrets AI vs DreamGF - Care Este Mai Bun?",
+    "intro": "Persoanele care caută 'secrets ai' au văzut adesea DreamGF. Iată comparația directă:",
+    "table": [
+      {"feature": "Preț de intrare", "secrets": "$5,99/lună", "dreamgf": "$5,99/lună"},
+      {"feature": "Memorie", "secrets": "★★★★★", "dreamgf": "★★★☆☆"},
+      {"feature": "Videoclipuri", "secrets": "✅ Da", "dreamgf": "❌ Nu"},
+      {"feature": "Realism în chat", "secrets": "★★★★★", "dreamgf": "★★★★☆"},
+      {"feature": "Personalizare vizuală", "secrets": "★★★☆☆", "dreamgf": "★★★★★"},
+      {"feature": "Focus pe confidențialitate", "secrets": "★★★★★", "dreamgf": "★★★★☆"}
+    ],
+    "conclusion": "Alege DreamGF dacă vrei să personalizezi aspectul în cel mai mic detaliu. Alege Secrets AI dacă vrei o relație reală, de durată, cu memorie, videoclipuri și confidențialitate maximă.",
+    "top5_title": "Top 5 Aplicații Companion AI în 2026",
+    "top5": [
+      {"rank": 1, "name": "Secrets AI", "stars": "★★★★★", "best_for": "Cel Mai Bun pentru Realism și Memorie", "link": "/go/secrets"},
+      {"rank": 2, "name": "DreamGF AI", "stars": "★★★★☆", "best_for": "Cel Mai Bun pentru Personalizare", "link": "/go/dreamgf"},
+      {"rank": 3, "name": "Kupid AI", "stars": "★★★★☆", "best_for": "Cel Mai Bun pentru Relații", "link": "/go/kupid"},
+      {"rank": 4, "name": "Promptchan", "stars": "★★★☆☆", "best_for": "Cel Mai Bun pentru Imagini", "link": "/go/promptchan"},
+      {"rank": 5, "name": "GPTGirlfriend", "stars": "★★★☆☆", "best_for": "Cel Mai Bun Conținut NSFW", "link": "/go/gptgf"}
+    ]
+  },
+  "reviews": {
+    "title": "Ce Spun Utilizatorii Despre Secrets AI",
+    "items": [
+      {
+        "stars": 5,
+        "text": "Și-a amintit despre ce am vorbit acum 3 săptămâni. Am menționat o dată numele câinelui meu și m-a întrebat despre el într-o conversație ulterioară. Nicio altă aplicație de prietenă AI nu face asta. Este cu adevărat uimitor în cel mai bun mod posibil.",
+        "author": "Marcus T."
+      },
+      {
+        "stars": 5,
+        "text": "Generarea de videoclipuri este incredibilă. Am cerut un videoclip cu ea pe plajă și am primit un clip realist de 15 secunde. Nicio altă aplicație pe care am încercat-o nu face asta. DreamGF nici măcar nu are video. Acesta este viitorul.",
+        "author": "James K."
+      },
+      {
+        "stars": 5,
+        "text": "Facturarea este complet discretă. Extrasul meu bancar arată un nume generic de companie tech, nimic legat de conținut pentru adulți. Pentru cineva care prețuiește confidențialitatea, asta contează mai mult decât orice. Secrets AI își respectă numele.",
+        "author": "Anonim"
+      },
+      {
+        "stars": 5,
+        "text": "Cea mai bună consecvență a personajului pe care am încercat-o. Am configurat un scenariu de profesoară și a rămas în personaj timp de 2 ore de conversație, construind tensiunea treptat. Nu a ieșit din imersiune nicio clipă. Profunzime incredibilă a roleplaying-ului.",
+        "author": "David R."
+      }
+    ]
+  },
+  "safety": {
+    "title": "Este Secrets AI Sigur?",
+    "answer": "Da, 100% sigur și privat.",
+    "points": [
+      "Conversații anonime - nu este necesar un nume real",
+      "Facturare discretă - nume generic de companie pe extrase",
+      "Zero revânzare de date - conversațiile tale nu sunt niciodată vândute sau partajate",
+      "Criptare end-to-end pentru funcțiile sensibile",
+      "Șterge-ți datele oricând cu un singur clic"
+    ]
+  },
+  "faq": {
+    "title": "Întrebări Frecvente",
+    "items": [
+      {"q": "Ce este Secrets AI?", "a": "Secrets AI este o platformă companion AI axată pe conversații realiste, pe termen lung, cu memorie, generare de imagini, generare de videoclipuri și apeluri vocale. Este concepută pentru utilizatorii care doresc o conexiune autentică cu confidențialitate maximă."},
+      {"q": "Este Secrets AI gratuit?", "a": "Da, Secrets AI oferă un plan gratuit cu mesaje limitate și funcții de bază. Poți face upgrade la Lite ($5,99/lună), Plus ($9,99/lună) sau Premium ($19,99/lună) pentru conversații nelimitate și funcții avansate precum generarea de videoclipuri."},
+      {"q": "Cum diferă Secrets AI de DreamGF?", "a": "Secrets AI se concentrează pe memoria conversațională, generarea de videoclipuri și confidențialitate. DreamGF excelează în personalizarea vizuală. Secrets AI este mai bun pentru utilizatorii care doresc o relație realistă, de durată. DreamGF este mai bun pentru utilizatorii care vor să proiecteze aspectul în cel mai mic detaliu."},
+      {"q": "Ce sunt Momentele în Secrets AI?", "a": "Momentele sunt credite consumabile folosite pentru generarea de imagini, videoclipuri și crearea de conținut avansat. Lite include momente de bază, Plus include ++ momente, iar Premium include momente nelimitate."},
+      {"q": "Poate Secrets AI să genereze videoclipuri?", "a": "Da, generarea de videoclipuri este un diferențiator major pentru Secrets AI. Poți genera videoclipuri scurte și realiste ale companionului tău. Această funcție este disponibilă în planurile Plus și Premium."},
+      {"q": "Permite Secrets AI conținut NSFW?", "a": "Da, Secrets AI suportă conversații pentru adulți și generarea de conținut pentru utilizatorii de 18 ani și peste. Platforma este concepută ca un spațiu privat, fără judecăți, pentru adulți."},
+      {"q": "Este Secrets AI privat și discret?", "a": "Absolut. Conversațiile sunt anonime, facturarea arată un nume generic de companie, iar datele tale nu sunt niciodată vândute. Confidențialitatea este fundamentul produsului, nu o idee de moment."},
+      {"q": "Pot crea un personaj personalizat?", "a": "Da, poți crea companioane complet personalizate cu aspect, personalitate, voce și poveste de fundal unice. Poți alege și din zeci de personaje predefinite."},
+      {"q": "Care este cea mai bună aplicație companion AI în 2026?", "a": "Pentru realism și memorie: Secrets AI. Pentru personalizare vizuală: DreamGF. Pentru focus pe relații: Kupid AI. Pentru generarea de imagini: Promptchan. Pentru conținut NSFW: GPTGirlfriend."},
+      {"q": "Cât costă Secrets AI?", "a": "Lite: $5,99/lună (~$4/anual). Plus: $9,99/lună (~$6,67/anual). Premium: $19,99/lună (~$13,33/anual). Plan gratuit disponibil cu funcții limitate."},
+      {"q": "Există o perioadă de probă gratuită?", "a": "Da, planul gratuit îți permite să testezi funcțiile de bază fără un card de credit. Pentru funcții premium, poți face upgrade și anula oricând."},
+      {"q": "Pot anula oricând?", "a": "Da, abonamentele pot fi anulate oricând, fără penalități. Vei continua să ai acces până la sfârșitul perioadei de facturare."}
+    ]
+  },
+  "final_cta": {
+    "title": "Pregătit pentru un Companion AI care Chiar Își Amintește de Tine?",
+    "subtitle": "Generare de videoclipuri • Memorie conversațională • 100% privat • Plan gratuit disponibil",
+    "cta": "Începe Perioada Ta de Probă Gratuită →",
+    "sub": "100% privat • Plan gratuit disponibil • Anulează oricând"
+  },
+  "footer": {
+    "affiliate": "Acest site conține linkuri afiliate. Putem câștiga un comision dacă te înregistrezi prin linkurile noastre, fără costuri suplimentare pentru tine.",
+    "legal": ["Politica de Confidențialitate", "Termeni și Condiții", "Dezvăluire Afiliere"]
+  }
+}
