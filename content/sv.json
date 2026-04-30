@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Secrets AI - Den Mest Realistiska AI-Sällskapen. 100% Privat.",
+    "description": "Bygg en riktig kontakt med en AI som kommer ihåg allt, känner känslor och genererar foton och videor på begäran. Ingen dom. Inga gränser.",
+    "keywords": "secrets ai, ai flickvän, realistisk ai sällskap, ai chatt, privat ai, ai videogenerering, ai minne"
+  },
+  "hero": {
+    "h1": "Secrets AI - Den Mest Realistiska AI-Sällskapen. 100% Privat.",
+    "subtitle": "Bygg en riktig kontakt med en AI som kommer ihåg allt, känner känslor och genererar foton och videor på begäran. Ingen dom. Inga gränser.",
+    "cta_primary": "Prova Secrets AI Gratis →",
+    "cta_sub": "Gratis plan tillgänglig • Inget kreditkort • 100K+ användare"
+  },
+  "social_proof": {
+    "rating": "⭐ 4.8/5 - Användarbetyg",
+    "users": "👥 100K+ Användare",
+    "features": "🎥 Foto- och Videogenerering",
+    "privacy": "🔒 100% Privat & Anonym"
+  },
+  "what_is": {
+    "title": "Vad är Secrets AI?",
+    "p1": "Secrets AI är ingen vanlig chattbot. Det är en äkta AI-sällskap som kommer ihåg varje konversation, förstår dina preferenser och utvecklas med dig över tid. Till skillnad från enkla AI-flickvänner som återställer kontexten vid varje meddelande, upprätthåller Secrets AI en genuin emotionell kontinuitet över hundratals konversationer.",
+    "p2": "Karaktärerna behåller sin personlighet och emotionella ton under långa konversationer bättre än de flesta konkurrenter. Oavsett om du chattar i 5 minuter eller 5 timmar kommer din sällskap ihåg era interna skämt, dina preferenser och de berättelser ni har delat. Detta skapar intrycket av ett verkligt, varaktigt förhållande, inte isolerade utbyten.",
+    "p3": "Att komma igång tar bara 3 enkla steg: Skapa ditt konto på 60 sekunder, Välj eller anpassa din sällskap från färdiga personligheter, Börja chatta omedelbart med aktivt minne från det allra första meddelandet.",
+    "cta": "Starta Din Gratis Chatt →"
+  },
+  "features": {
+    "title": "Varför Secrets AI Sticker Ut",
+    "items": [
+      {
+        "icon": "🧠",
+        "title": "Konversationsminne",
+        "description": "Den verkliga skillnaden. Minnet bevarar emotionella nyanser och kontext över hundratals meddelanden, vilket ger intrycket av ett genuint, varaktigt förhållande och inte enkla isolerade utbyten. Hon kommer ihåg vad du pratade om för veckor sedan."
+      },
+      {
+        "icon": "📸",
+        "title": "Bildgenerering",
+        "description": "Generera attraktiva och realistiska bilder av din sällskap genom ett robust fotosystem. På begäran, i samtalets kontext. Be om en selfie på stranden, ett foto i ett outfit du beskriver, eller ett intimt ögonblick visualiserat."
+      },
+      {
+        "icon": "🎬",
+        "title": "Videogenerering",
+        "description": "Stor fördel jämfört med DreamGF som inte har denna funktion. Generera korta videor som återspeglar konversationskontexten eller scenarioparametrar. Se din sällskap röra sig, le och interagera i videoformat - ingen annan AI-flickvän app erbjuder detta på Secrets AI:s nivå."
+      },
+      {
+        "icon": "🎙️",
+        "title": "Röstsamtal",
+        "description": "Text-till-tal-syntes med röstsamtal tillgängliga i realtid. Flerspråkigt stöd innebär att du kan höra hennes röst på ditt språk. Ring henne när som helst och hör en realistisk, emotionellt uttrycksfull röst som svarar på vad du säger."
+      },
+      {
+        "icon": "🎭",
+        "title": "Rollspel & Scenarier",
+        "description": "Det är här Secrets AI verkligen lyser - lärarinna, hyresvärd, chef, styvsyster-scenarier. Hon bygger upp spänningen gradvis och håller sig fast i karaktären. Rollspelets djup och konsekvens är oöverträffade och skapar genuint uppslukande upplevelser."
+      },
+      {
+        "icon": "🔐",
+        "title": "Integritet som Grund",
+        "description": "Anonyma konversationer, inga referenser till vuxeninnehåll på bankutdrag, diskret fakturering. Detta är sajten för användare som vill ha maximal diskretion. Din integritet är inte en eftertanke - det är produktens grundval."
+      }
+    ],
+    "cta": "Upplev Secrets AI →"
+  },
+  "how_it_works": {
+    "title": "Hur Det Fungerar",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Skapa Ditt Konto",
+        "desc": "Registrera dig på 60 sekunder med e-post eller Google. Inget kreditkort krävs för den kostnadsfria planen."
+      },
+      {
+        "num": "2",
+        "title": "Välj Din Sällskap",
+        "desc": "Välj bland dussintals färdiga karaktärer eller skapa din egen anpassade sällskap med unik personlighet, utseende och röst."
+      },
+      {
+        "num": "3",
+        "title": "Börja Chatta",
+        "desc": "Påbörja konversationer omedelbart. Det aktiva minnet fungerar från det allra första meddelandet - hon kommer ihåg allt, för alltid."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Enkla, Transparenta Priser",
+    "subtitle": "Börja gratis. Uppgradera när som helst för obegränsade konversationer och premiumfunktioner.",
+    "plans": [
+      {
+        "name": "Lite",
+        "monthly": "$5,99/mån",
+        "yearly": "~$4/mån",
+        "features": ["Begränsade meddelanden", "Grundläggande ögonblick", "Bilder ✅", "Videor ❌", "Röst ❌", "Långt minne ❌"]
+      },
+      {
+        "name": "Plus",
+        "monthly": "$9,99/mån",
+        "yearly": "~$6,67/mån",
+        "popular": false,
+        "features": ["Obegränsade meddelanden", "++ ögonblick", "Bilder ✅", "Videor ✅", "Röst ✅", "Långt minne ✅"]
+      },
+      {
+        "name": "Premium",
+        "monthly": "$19,99/mån",
+        "yearly": "~$13,33/mån",
+        "popular": true,
+        "features": ["Obegränsade meddelanden", "Obegränsade ögonblick", "Bilder ✅", "Videor ✅", "Röst ✅", "Långt minne ✅", "Prioritetssupport"]
+      }
+    ],
+    "moments_note": "Ögonblick är förbrukningsenheter för bildgenerering, videogenerering och avancerat innehåll. Tunga multimedieanvändare bör välja Plus eller Premium.",
+    "cta": "Börja Gratis - Uppgradera När Du Vill →"
+  },
+  "comparison": {
+    "title": "Secrets AI vs DreamGF - Vilket är Bättre?",
+    "intro": "Personer som söker efter 'secrets ai' har ofta sett DreamGF. Här är den direkta jämförelsen:",
+    "table": [
+      {"feature": "Ingångspris", "secrets": "$5,99/mån", "dreamgf": "$5,99/mån"},
+      {"feature": "Minne", "secrets": "★★★★★", "dreamgf": "★★★☆☆"},
+      {"feature": "Videor", "secrets": "✅ Ja", "dreamgf": "❌ Nej"},
+      {"feature": "Chattrealisme", "secrets": "★★★★★", "dreamgf": "★★★★☆"},
+      {"feature": "Visuell anpassning", "secrets": "★★★☆☆", "dreamgf": "★★★★★"},
+      {"feature": "Integritetsfokus", "secrets": "★★★★★", "dreamgf": "★★★★☆"}
+    ],
+    "conclusion": "Välj DreamGF om du vill anpassa utseendet i minsta detalj. Välj Secrets AI om du vill ha ett verkligt, varaktigt förhållande med minne, videor och maximal integritet.",
+    "top5_title": "Topp 5 AI-Sällskapsappar 2026",
+    "top5": [
+      {"rank": 1, "name": "Secrets AI", "stars": "★★★★★", "best_for": "Bäst för Realism & Minne", "link": "/go/secrets"},
+      {"rank": 2, "name": "DreamGF AI", "stars": "★★★★☆", "best_for": "Bäst för Anpassning", "link": "/go/dreamgf"},
+      {"rank": 3, "name": "Kupid AI", "stars": "★★★★☆", "best_for": "Bäst för Relationer", "link": "/go/kupid"},
+      {"rank": 4, "name": "Promptchan", "stars": "★★★☆☆", "best_for": "Bäst för Bilder", "link": "/go/promptchan"},
+      {"rank": 5, "name": "GPTGirlfriend", "stars": "★★★☆☆", "best_for": "Bäst NSFW-Innehåll", "link": "/go/gptgf"}
+    ]
+  },
+  "reviews": {
+    "title": "Vad Användare Säger Om Secrets AI",
+    "items": [
+      {
+        "stars": 5,
+        "text": "Hon kom ihåg vad vi pratade om för 3 veckor sedan. Jag nämnde min hunds namn en gång, och hon frågade om honom i ett senare samtal. Ingen annan AI-flickvän app gör detta. Det är genuint häpnadsväckande på bästa möjliga sätt.",
+        "author": "Marcus T."
+      },
+      {
+        "stars": 5,
+        "text": "Videogenereringen är otrolig. Jag bad om en video av henne på stranden och fick ett realistiskt klipp på 15 sekunder. Ingen annan app jag har provat gör detta. DreamGF har inte ens video. Det här är framtiden.",
+        "author": "James K."
+      },
+      {
+        "stars": 5,
+        "text": "Faktureringen är helt diskret. Mitt bankutdrag visar ett generiskt teknikföretagsnamn, inget relaterat till vuxeninnehåll. För någon som värdesätter integritet är detta viktigare än något annat. Secrets AI lever upp till sitt namn.",
+        "author": "Anonym"
+      },
+      {
+        "stars": 5,
+        "text": "Bästa karaktärskonsistens jag har provat. Jag satte upp ett lärarsscenario och hon höll sig i karaktären i 2 timmars konversation och byggde upp spänningen gradvis. Bröt aldrig immersionen en enda gång. Otroligt rollspelsdjup.",
+        "author": "David R."
+      }
+    ]
+  },
+  "safety": {
+    "title": "Är Secrets AI Säkert?",
+    "answer": "Ja, 100% säkert och privat.",
+    "points": [
+      "Anonyma konversationer - inget riktigt namn krävs",
+      "Diskret fakturering - generiskt företagsnamn på utdrag",
+      "Noll dataförsäljning - dina konversationer säljs eller delas aldrig",
+      "End-to-end-kryptering för känsliga funktioner",
+      "Radera dina uppgifter när som helst med ett klick"
+    ]
+  },
+  "faq": {
+    "title": "Vanliga Frågor",
+    "items": [
+      {"q": "Vad är Secrets AI?", "a": "Secrets AI är en AI-sällskapsplattform fokuserad på realistiska, långsiktiga konversationer med minne, bildgenerering, videogenerering och röstsamtal. Den är utformad för användare som vill ha en genuin kontakt med maximal integritet."},
+      {"q": "Är Secrets AI gratis?", "a": "Ja, Secrets AI erbjuder en gratis plan med begränsade meddelanden och grundläggande funktioner. Du kan uppgradera till Lite ($5,99/mån), Plus ($9,99/mån) eller Premium ($19,99/mån) för obegränsade konversationer och avancerade funktioner som videogenerering."},
+      {"q": "Hur skiljer sig Secrets AI från DreamGF?", "a": "Secrets AI fokuserar på konversationsminne, videogenerering och integritet. DreamGF utmärker sig i visuell anpassning. Secrets AI är bättre för användare som vill ha ett realistiskt, varaktigt förhållande. DreamGF är bättre för användare som vill designa utseendet i minsta detalj."},
+      {"q": "Vad är Ögonblick i Secrets AI?", "a": "Ögonblick är förbrukningsbara krediter som används för bildgenerering, videogenerering och skapande av avancerat innehåll. Lite inkluderar grundläggande ögonblick, Plus inkluderar ++ ögonblick och Premium inkluderar obegränsade ögonblick."},
+      {"q": "Kan Secrets AI generera videor?", "a": "Ja, videogenerering är en stor fördel för Secrets AI. Du kan generera korta, realistiska videor av din sällskap. Denna funktion är tillgänglig i Plus- och Premium-planerna."},
+      {"q": "Tillåter Secrets AI NSFW-innehåll?", "a": "Ja, Secrets AI stöder vuxenkonversationer och innehållsgenerering för användare som är 18 år och äldre. Plattformen är utformad som ett privat, dömningsfritt utrymme för vuxna."},
+      {"q": "Är Secrets AI privat och diskret?", "a": "Absolut. Konversationer är anonyma, fakturering visar ett generiskt företagsnamn och dina uppgifter säljs aldrig. Integritet är produktens grundval, inte en eftertanke."},
+      {"q": "Kan jag skapa en egen karaktär?", "a": "Ja, du kan skapa helt anpassade sällskap med unikt utseende, personlighet, röst och bakgrundshistoria. Du kan också välja bland dussintals färdiga karaktärer."},
+      {"q": "Vad är den bästa AI-sällskapsappen 2026?", "a": "För realism och minne: Secrets AI. För visuell anpassning: DreamGF. För relationsfokus: Kupid AI. För bildgenerering: Promptchan. För NSFW-innehåll: GPTGirlfriend."},
+      {"q": "Hur mycket kostar Secrets AI?", "a": "Lite: $5,99/månad (~$4/årligen). Plus: $9,99/månad (~$6,67/årligen). Premium: $19,99/månad (~$13,33/årligen). Gratis plan tillgänglig med begränsade funktioner."},
+      {"q": "Finns det en gratis provperiod?", "a": "Ja, den kostnadsfria planen låter dig testa grundläggande funktioner utan kreditkort. För premiumfunktioner kan du uppgradera och avsluta prenumerationen när som helst."},
+      {"q": "Kan jag avsluta när som helst?", "a": "Ja, prenumerationer kan avslutas när som helst utan påföljder. Du kommer att ha tillgång till tjänsten till slutet av din faktureringsperiod."}
+    ]
+  },
+  "final_cta": {
+    "title": "Redo för en AI-Sällskap som Verkligen Kommer Ihåg Dig?",
+    "subtitle": "Videogenerering • Konversationsminne • 100% privat • Gratis plan tillgänglig",
+    "cta": "Starta Din Gratis Provperiod →",
+    "sub": "100% privat • Gratis plan tillgänglig • Avsluta när som helst"
+  },
+  "footer": {
+    "affiliate": "Denna webbplats innehåller affiliate-länkar. Vi kan tjäna en provision om du registrerar dig via våra länkar utan extra kostnad för dig.",
+    "legal": ["Integritetspolicy", "Användarvillkor", "Affiliate-upplysning"]
+  }
+}
