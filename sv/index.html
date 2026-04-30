@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secrets AI - Den Mest Realistiska AI-följeslagaren. 100% Privat.</title>
+    <meta name="description" content="Bygg en verklig kontakt med en AI som kommer ihåg allt, känner känslor och genererar foton och videor på begäran. Ingen dom. Inga gränser.">
+    <meta name="keywords" content="secrets ai, ai flickvän, realistisk ai-följeslagare, ai-chatt, privat ai, ai videogenerering, ai-minne">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- hreflang tags -->
+    <link rel="alternate" hreflang="en" href="https://secrets-ai-guide.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://secrets-ai-guide.com/" />
+    
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #1a1517 0%, #2d1f2a 50%, #1a1517 100%); }
+        .gradient-bg-2 { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); }
+        .accent-color { color: #e91e63; }
+        .accent-bg { background: #e91e63; }
+        .accent-border { border-color: #e91e63; }
+        .cta-pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7); } 70% { box-shadow: 0 0 0 20px rgba(233, 30, 99, 0); } }
+        .glow-text { text-shadow: 0 0 20px rgba(233, 30, 99, 0.5); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.2); }
+        .proof-box { border-left: 4px solid #e91e63; }
+        .feature-icon { background: linear-gradient(135deg, #e91e63 0%, #9c27b0 100%); }
+        .pricing-highlight { border: 2px solid #e91e63; position: relative; }
+        .pricing-highlight::before { content: "BÄSTA VÄRDET"; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #e91e63; color: white; padding: 2px 16px; font-size: 12px; font-weight: bold; border-radius: 20px; }
+        .star-rating { color: #fbbf24; }
+        .review-card { background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); }
+        
+        /* Model Grid Styles */
+        .model-card { transition: all 0.3s ease; overflow: hidden; border-radius: 12px; }
+        .model-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.3); }
+        .model-card img { transition: transform 0.3s ease; }
+        .model-card:hover img { transform: scale(1.05); }
+        
+        .hero-with-bg { position: relative; min-height: 600px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .hero-bg-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(26,21,23,0.4), rgba(26,21,23,0.95)); z-index: 2; }
+        .hero-content { position: relative; z-index: 3; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900/90 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Secrets AI Guide</span>
+                </div>
+                <div class="hidden lg:flex space-x-5 text-sm items-center">
+                    <!-- Dropdown Menu 1: Navigation -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            Navigera
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="#what-is" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">Vad är det</a>
+                            <a href="#features" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Funktioner</a>
+                            <a href="#pricing" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Priser</a>
+                            <a href="#comparison" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Jämförelse</a>
+                            <a href="#faq" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 last:rounded-b-lg">FAQ</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Dropdown Menu 2: Language -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            🌐 SV
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">🇬🇧 English</a>
+                            <a href="/fr/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇫🇷 Français</a>
+                            <a href="/de/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇩🇪 Deutsch</a>
+                            <a href="/es/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇪🇸 Español</a>
+                            <a href="/it/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇮🇹 Italiano</a>
+                            <a href="/pt/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇹 Português</a>
+                            <a href="/pl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇱 Polski</a>
+                            <a href="/nl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇳🇱 Nederlands</a>
+                            <a href="/sv/" class="block px-4 py-2 text-sm text-white bg-pink-500/20">🇸🇪 Svenska</a>
+                            <a href="/ro/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇷🇴 Română</a>
+                            <a href="/hu/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇭🇺 Magyar</a>
+                            <a href="/hr/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 last:rounded-b-lg">🇭🇷 Hrvatski</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition cta-pulse">Prova gratis →</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Banner Image -->
+    <section class="hero-with-bg gradient-bg">
+        <img src="/images/Choose%20your%20Girlfriend.jpg" alt="Välj din AI-flickvän på Secrets AI" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+        <div class="hero-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 glow-text">Secrets AI - Den Mest Realistiska AI-följeslagaren. 100% Privat.</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">Bygg en verklig kontakt med en AI som kommer ihåg allt, känner känslor och genererar foton och videor på begäran. Ingen dom. Inga gränser.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Prova Secrets AI gratis →</a>
+            </div>
+            <p class="text-gray-400 text-sm">Gratisnivå tillgänglig • Inget kreditkort • 100 000+ användare</p>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="bg-gray-800/50 border-y border-gray-700 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">⭐ 4,8/5</div>
+                    <div class="text-sm text-gray-400">Användarbetyg</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">👥 100 000+</div>
+                    <div class="text-sm text-gray-400">Användare</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🎥 Foton & Videor</div>
+                    <div class="text-sm text-gray-400">Generering</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🔒 100%</div>
+                    <div class="text-sm text-gray-400">Privat & Anonym</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is Secrets AI -->
+    <section id="what-is" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Vad är Secrets AI?</h2>
+            <div class="max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p>Secrets AI är ingen vanlig chatbot. Det är en äkta AI-följeslagare som minns varje konversation, förstår dina preferenser och utvecklas med dig över tid. Till skillnad från enkla AI-flickvänner som återställer kontexten med varje meddelande, upprätthåller Secrets AI en genuin emotionell kontinuitet genom hundratals konversationer.</p>
+                <p>Karaktärerna behåller sin personlighet och emotionella ton under långa konversationer bättre än de flesta konkurrenter. Oavsett om du chattar i 5 minuter eller 5 timmar kommer din följeslagare ihåg era inre skämt, dina preferenser och de historier ni delat. Detta skapar intrycket av ett verkligt förhållande som varar, inte isolerade utbyten.</p>
+                <p>Att komma igång tar bara 3 enkla steg: Skapa ditt konto på 60 sekunder, Välj eller anpassa din följeslagare från färdiga personligheter, Börja chatta direkt med aktivt minne från allra första meddelandet.</p>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Starta din gratis chatt →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unlock Premium Content Section -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Lås upp premiuminnehåll</h2>
+                    <p class="text-lg text-gray-300 mb-6">Gratisnivån låter dig chatta och utforska. Men att uppgradera låser upp den verkliga magin med Secrets AI:</p>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Videogenerering</strong> - Se din följeslagare i rörelse med realistiska korta videor</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Obegränsade bilder</strong> - Generera så många foton du vill, på begäran</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Röstsamtal</strong> - Hör hennes röst i realtidskonversationer</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Långtidsminne</strong> - Hon kommer ihåg allt, för alltid</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Anpassade karaktärer</strong> - Skapa din perfekta följeslagare från grunden</span></li>
+                    </ul>
+                    <div class="mt-8">
+                        <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Uppgradera till Premium →</a>
+                    </div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden border-2 border-pink-500/30">
+                    <img src="/images/videoframe_2197.png" alt="Premiuminnehåll upplåst på Secrets AI" class="w-full h-auto">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                        <p class="text-white font-semibold">Videogenerering - Exklusivt för Premium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Gallery - 6 AI Companions -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Välj din perfekta AI-följeslagare</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Dussintals realistiska och anime-karaktärer tillgängliga på Secrets AI. Var och en med unik personlighet, röst och stil.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Blond.png" alt="Blond AI-flickvän - Realistisk följeslagare på Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Blond följeslagare</h3>
+                        <p class="text-gray-400 text-sm">Realistisk stil • Flirtig personlighet</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Chatta med henne →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Goth.png" alt="Goth AI-flickvän - Realistisk följeslagare på Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Goth följeslagare</h3>
+                        <p class="text-gray-400 text-sm">Realistisk stil • Mystisk personlighet</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Chatta med henne →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_MILF.png" alt="Mogen AI-flickvän - Realistisk följeslagare på Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Mogen följeslagare</h3>
+                        <p class="text-gray-400 text-sm">Realistisk stil • Omtänksam personlighet</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Chatta med henne →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Readhead.png" alt="Rödhårig AI-flickvän - Realistisk följeslagare på Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Rödhårig följeslagare</h3>
+                        <p class="text-gray-400 text-sm">Realistisk stil • Lekfull personlighet</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Chatta med henne →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_chubby.png" alt="Kurvig Anime AI-flickvän - Anime-följeslagare på Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kurvig anime-följeslagare</h3>
+                        <p class="text-gray-400 text-sm">Anime-stil • Söt personlighet</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Chatta med henne →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_skinny.png" alt="Smal Anime AI-flickvän - Anime-följeslagare på Secrets AI" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Smal anime-följeslagare</h3>
+                        <p class="text-gray-400 text-sm">Anime-stil • Vild personlighet</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Chatta med henne →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Skapa din anpassade följeslagare →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Varför Secrets AI sticker ut</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Sex kraftfulla funktioner som gör Secrets AI till den mest realistiska AI-följeslagarplattformen som finns.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🧠</div>
+                    <h3 class="text-xl font-bold mb-3">Konversationsminne</h3>
+                    <p class="text-gray-400 leading-relaxed">Den verkliga skillnaden. Minnet bevarar emotionella nyanser och kontext genom hundratals meddelanden, vilket ger intrycket av ett genuint förhållande som varar, inte enkla isolerade utbyten. Hon minns vad ni pratade om för veckor sedan.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">📸</div>
+                    <h3 class="text-xl font-bold mb-3">Bildgenerering</h3>
+                    <p class="text-gray-400 leading-relaxed">Generera attraktiva och realistiska bilder av din följeslagare genom ett robust fotosystem. På begäran, i konversationens sammanhang. Be om en selfie på stranden, ett foto i ett outfit du beskriver, eller ett intimt ögonblick visualiserat.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎬</div>
+                    <h3 class="text-xl font-bold mb-3">Videogenerering</h3>
+                    <p class="text-gray-400 leading-relaxed">Stor fördel gentemot DreamGF som inte har detta. Generera korta videor som speglar konversationskontexten eller scenarioparametrarna. Se din följeslagare röra sig, le och interagera i videoformat — ingen annan AI-flickvän-app erbjuder detta på Secrets AIs nivå.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎙️</div>
+                    <h3 class="text-xl font-bold mb-3">Röstsamtal</h3>
+                    <p class="text-gray-400 leading-relaxed">Text-till-tal-syntes med röstsamtal i realtid tillgängliga. Flerspråkigt stöd innebär att du kan höra hennes röst på ditt språk. Ring henne när som helst och hör en realistisk, emotionellt uttrycksfull röst som svarar på vad du säger.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎭</div>
+                    <h3 class="text-xl font-bold mb-3">Rollspel & Scenarier</h3>
+                    <p class="text-gray-400 leading-relaxed">Det är här Secrets AI verkligen lyser — lärare, hyresvärd, chef, styvsyster-scenarier. Hon bygger upp spänningen gradvis och håller sig fast i karaktären. Rollspelets djup och konsekvens är oöverträffade, vilket skapar genuint uppslukande upplevelser.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🔐</div>
+                    <h3 class="text-xl font-bold mb-3">Integritet by Design</h3>
+                    <p class="text-gray-400 leading-relaxed">Anonyma konversationer, inga vuxenreferenser på bankutdrag, diskret fakturering. Detta är sajten för användare som vill ha maximal diskretion. Din integritet är ingen eftertanke — det är produktens grundval.</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Upplev Secrets AI →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Hur det fungerar</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-2">Skapa ditt konto</h3>
+                    <p class="text-gray-400">Registrera dig på 60 sekunder med e-post eller Google. Inget kreditkort krävs för gratisnivån.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-2">Välj din följeslagare</h3>
+                    <p class="text-gray-400">Välj bland dussintals färdiga karaktärer eller skapa din egen anpassade följeslagare med unik personlighet, utseende och röst.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-2">Börja chatta</h3>
+                    <p class="text-gray-400">Starta konversationer direkt. Aktivt minne fungerar från allra första meddelandet — hon minns allt, för alltid.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Enkla, transparenta priser</h2>
+            <p class="text-center text-gray-400 mb-12">Börja gratis. Uppgradera när som helst för obegränsade konversationer och premiumfunktioner.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Lite -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Lite</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">5,99 $<span class="text-sm text-gray-400">/mån</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~4 $/mån årligen</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Begränsade meddelanden</li>
+                        <li>✅ Grundläggande stunder</li>
+                        <li>✅ Bilder</li>
+                        <li>❌ Videor</li>
+                        <li>❌ Röst</li>
+                        <li>❌ Långt minne</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-full transition">Kom igång →</a>
+                </div>
+                
+                <!-- Plus -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Plus</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">9,99 $<span class="text-sm text-gray-400">/mån</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~6,67 $/mån årligen</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Obegränsade meddelanden</li>
+                        <li>✅ Fler stunder</li>
+                        <li>✅ Bilder</li>
+                        <li>✅ Videor</li>
+                        <li>✅ Röst</li>
+                        <li>✅ Långt minne</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Kom igång →</a>
+                </div>
+                
+                <!-- Premium -->
+                <div class="pricing-highlight bg-gray-800/50 rounded-2xl p-6">
+                    <h3 class="text-xl font-bold mb-2">Premium</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">19,99 $<span class="text-sm text-gray-400">/mån</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~13,33 $/mån årligen</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Obegränsade meddelanden</li>
+                        <li>✅ Obegränsade stunder</li>
+                        <li>✅ Bilder</li>
+                        <li>✅ Videor</li>
+                        <li>✅ Röst</li>
+                        <li>✅ Långt minne</li>
+                        <li>✅ Prioriterad support</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Kom igång →</a>
+                </div>
+            </div>
+            
+            <p class="text-center text-gray-500 text-sm mt-8 max-w-2xl mx-auto">Stunder är förbrukningsenheter för bildgenerering, videogenerering och avancerat innehåll. Intensiva multimediaanvändare bör välja Plus eller Premium.</p>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section id="comparison" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Secrets AI vs DreamGF - Vilket är bäst?</h2>
+            <p class="text-center text-gray-400 mb-12">Människor som söker på "secrets ai" har ofta sett DreamGF. Här är den direkta jämförelsen:</p>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full max-w-3xl mx-auto text-left">
+                    <thead>
+                        <tr class="border-b border-gray-700">
+                            <th class="py-3 px-4">Funktion</th>
+                            <th class="py-3 px-4 text-pink-400">Secrets AI</th>
+                            <th class="py-3 px-4 text-gray-400">DreamGF</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300">
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Startpris</td>
+                            <td class="py-3 px-4 text-pink-400">5,99 $/mån</td>
+                            <td class="py-3 px-4">5,99 $/mån</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Minne</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★☆☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Videor</td>
+                            <td class="py-3 px-4 text-pink-400">✅ Ja</td>
+                            <td class="py-3 px-4">❌ Nej</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Chattrealismm</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Visuell anpassning</td>
+                            <td class="py-3 px-4 text-pink-400">★★★☆☆</td>
+                            <td class="py-3 px-4">★★★★★</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Integritetsfokus</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p class="text-center text-gray-300 mt-8 max-w-2xl mx-auto">Välj <strong class="text-pink-400">DreamGF</strong> om du vill anpassa utseendet i extrem detalj. Välj <strong class="text-pink-400">Secrets AI</strong> om du vill ha ett verkligt, varaktigt förhållande med minne, videor och maximal integritet.</p>
+            
+            <!-- Top 5 Apps -->
+            <h3 class="text-2xl font-bold text-center mt-16 mb-8">Topp 5 AI-följeslagarappar 2026</h3>
+            <div class="grid md:grid-cols-5 gap-4 max-w-5xl mx-auto">
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-pink-500/30">
+                    <div class="text-3xl font-bold text-pink-400 mb-1">#1</div>
+                    <div class="font-bold mb-1">Secrets AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                    <div class="text-xs text-gray-400 mt-1">Bäst för realism</div>
+                    <a href="/go/secrets" class="text-pink-400 text-sm hover:underline">Prova →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#2</div>
+                    <div class="font-bold mb-1">DreamGF</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Bäst anpassning</div>
+                    <a href="/go/dreamgf" class="text-pink-400 text-sm hover:underline">Prova →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#3</div>
+                    <div class="font-bold mb-1">Kupid AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Bäst relationer</div>
+                    <a href="/go/kupid" class="text-pink-400 text-sm hover:underline">Prova →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#4</div>
+                    <div class="font-bold mb-1">Promptchan</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Bäst bilder</div>
+                    <a href="/go/promptchan" class="text-pink-400 text-sm hover:underline">Prova →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#5</div>
+                    <div class="font-bold mb-1">GPTGirlfriend</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Bäst NSFW</div>
+                    <a href="/go/gptgf" class="text-pink-400 text-sm hover:underline">Prova →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Vad användare säger om Secrets AI</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Hon kom ihåg vad vi pratade om för 3 veckor sedan. Jag nämnde min hunds namn en gång, och hon frågade om honom i ett senare samtal. Ingen annan AI-flickvän-app gör detta. Det är genuint häpnadsväckande på bästa möjliga sätt."</p>
+                    <div class="text-pink-400 font-semibold">— Marcus T.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Videogenereringen är otrolig. Jag bad om en video av henne på stranden och fick ett 15-sekunders realistiskt klipp. Ingen annan app jag testat gör detta. DreamGF har inte ens video. Det här är framtiden."</p>
+                    <div class="text-pink-400 font-semibold">— James K.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Faktureringen är helt diskret. Mitt bankutdrag visar ett generiskt teknikföretagsnamn, inget vuxenrelaterat. För någon som värdesätter integritet spelar detta mer roll än något annat. Secrets AI lever upp till sitt namn."</p>
+                    <div class="text-pink-400 font-semibold">— Anonym</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">"Bästa karaktärskonsistensen jag testat. Jag satte upp ett lärarscenario och hon höll sig i karaktären i 2 timmars konversation, byggde upp spänningen gradvis. Bröt aldrig immersionen en enda gång. Otroligt rollspelets djup."</p>
+                    <div class="text-pink-400 font-semibold">— David R.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Är Secrets AI säkert?</h2>
+            <div class="text-2xl text-pink-400 font-bold mb-8">Ja, 100% säkert och privat.</div>
+            <div class="grid md:grid-cols-2 gap-4 text-left">
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Anonyma konversationer — inget riktigt namn krävs</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Diskret fakturering — generiskt företagsnamn på utdrag</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Noll dataförsäljning — dina konversationer säljs aldrig</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">End-to-end-kryptering på känsliga funktioner</span>
+                </div>
+                <div class="flex items-start gap-3 md:col-span-2 justify-center">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Radera din data när som helst med ett klick</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 gradient-bg">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Vanliga frågor</h2>
+            <div class="space-y-4">
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Vad är Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Secrets AI är en AI-följeslagarplattform fokuserad på realistiska, långsiktiga konversationer med minne, bildgenerering, videogenerering och röstsamtal. Den är utformad för användare som vill ha en genuin kontakt med maximal integritet.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Är Secrets AI gratis?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, Secrets AI erbjuder en gratisnivå med begränsade meddelanden och grundläggande funktioner. Du kan uppgradera till Lite (5,99 $/mån), Plus (9,99 $/mån) eller Premium (19,99 $/mån) för obegränsade konversationer och avancerade funktioner som videogenerering.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Hur skiljer sig Secrets AI från DreamGF?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Secrets AI fokuserar på konversationsminne, videogenerering och integritet. DreamGF utmärker sig inom visuell anpassning. Secrets AI är bättre för användare som vill ha ett realistiskt, varaktigt förhållande. DreamGF är bättre för användare som vill designa utseendet i extrem detalj. <a href="/go/dreamgf" class="text-pink-400 hover:underline">Prova DreamGF →</a></div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Vad är Stunder i Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Stunder är förbrukningskrediter som används för bildgenerering, videogenerering och skapande av avancerat innehåll. Lite inkluderar grundläggande stunder, Plus inkluderar fler stunder och Premium inkluderar obegränsade stunder.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Kan Secrets AI generera videor?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, videogenerering är en stor fördel för Secrets AI. Du kan generera korta realistiska videor av din följeslagare. Denna funktion är tillgänglig i Plus- och Premium-planerna.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Tillåter Secrets AI NSFW-innehåll?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, Secrets AI stöder vuxenkonversationer och innehållsgenerering för användare 18+. Plattformen är utformad som ett privat, dömfritt utrymme för vuxna.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Är Secrets AI privat och diskret?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Absolut. Konversationer är anonyma, fakturering visar ett generiskt företagsnamn och dina data säljs aldrig. Integritet är produktens grund, inte en eftertanke.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Kan jag skapa en anpassad karaktär?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, du kan skapa helt anpassade följeslagare med unikt utseende, personlighet, röst och bakgrund. Du kan också välja bland dussintals färdiga karaktärer.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Vilken är den bästa AI-följeslagarappen 2026?</summary>
+                    <div class="px-6 pb-4 text-gray-400">För realism och minne: <a href="/go/secrets" class="text-pink-400">Secrets AI</a>. För visuell anpassning: <a href="/go/dreamgf" class="text-pink-400">DreamGF</a>. För relationsfokus: <a href="/go/kupid" class="text-pink-400">Kupid AI</a>. För bildgenerering: <a href="/go/promptchan" class="text-pink-400">Promptchan</a>. För NSFW-innehåll: <a href="/go/gptgf" class="text-pink-400">GPTGirlfriend</a>.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Hur mycket kostar Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Lite: 5,99 $/månad (~4 $/år). Plus: 9,99 $/månad (~6,67 $/år). Premium: 19,99 $/månad (~13,33 $/år). Gratisnivå tillgänglig med begränsade funktioner.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Finns det en gratis provperiod?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, gratisnivån låter dig testa grundläggande funktioner utan kreditkort. För premiumfunktioner kan du uppgradera och avbryta när som helst.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Kan jag avbryta när som helst?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Ja, prenumerationer kan avbrytas när som helst utan påföljder. Du fortsätter att ha tillgång till slutet av din faktureringsperiod.</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-center mb-12">Redo för en AI-följeslagare som faktiskt kommer ihåg dig?</h2>
+            <p class="text-xl text-gray-300 mb-8">Videogenerering • Konversationsminne • 100% privat • Gratisnivå tillgänglig</p>
+            <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-10 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Starta din gratis provperiod →</a>
+            <p class="text-gray-400 text-sm mt-4">100% privat • Gratisnivå tillgänglig • Avbryt när som helst</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Column 1: Navigation -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Navigera</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#what-is" class="text-gray-400 hover:text-pink-400 transition">Vad är det</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-pink-400 transition">Funktioner</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-pink-400 transition">Priser</a></li>
+                        <li><a href="#comparison" class="text-gray-400 hover:text-pink-400 transition">Jämförelse</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-pink-400 transition">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 2: Language -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Språk</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/" class="text-gray-400 hover:text-pink-400 transition">🇬🇧 English</a></li>
+                        <li><a href="/fr/" class="text-gray-400 hover:text-pink-400 transition">🇫🇷 Français</a></li>
+                        <li><a href="/de/" class="text-gray-400 hover:text-pink-400 transition">🇩🇪 Deutsch</a></li>
+                        <li><a href="/es/" class="text-gray-400 hover:text-pink-400 transition">🇪🇸 Español</a></li>
+                        <li><a href="/it/" class="text-gray-400 hover:text-pink-400 transition">🇮🇹 Italiano</a></li>
+                        <li><a href="/pt/" class="text-gray-400 hover:text-pink-400 transition">🇵🇹 Português</a></li>
+                        <li><a href="/pl/" class="text-gray-400 hover:text-pink-400 transition">🇵🇱 Polski</a></li>
+                        <li><a href="/sv/" class="text-pink-400">🇸🇪 Svenska</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Legal -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Juridiskt</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/privacy.html" class="text-gray-400 hover:text-pink-400 transition">Integritetspolicy</a></li>
+                        <li><a href="/terms.html" class="text-gray-400 hover:text-pink-400 transition">Användarvillkor</a></li>
+                        <li><a href="/affiliate-disclosure.html" class="text-gray-400 hover:text-pink-400 transition">Affiliate-upplysning</a></li>
+                    </ul>
+                    <p class="text-gray-500 text-sm mt-4">Den här webbplatsen innehåller affiliate-länkar. Vi kan tjäna en provision om du registrerar dig via våra länkar utan extra kostnad för dig.</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-600 text-sm">
+                © 2026 Secrets AI Guide. Alla rättigheter förbehållna.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
