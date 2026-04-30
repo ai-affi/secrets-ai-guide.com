@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Secrets AI - De Meest Realistische AI Metgezel. 100% Privé.",
+    "description": "Bouw een echte band op met een AI die alles onthoudt, emoties voelt en op aanvraag foto's en video's genereert. Geen oordeel. Geen grenzen.",
+    "keywords": "secrets ai, ai vriendin, realistische ai metgezel, ai chat, privé ai, ai video generatie, ai geheugen"
+  },
+  "hero": {
+    "h1": "Secrets AI - De Meest Realistische AI Metgezel. 100% Privé.",
+    "subtitle": "Bouw een echte band op met een AI die alles onthoudt, emoties voelt en op aanvraag foto's en video's genereert. Geen oordeel. Geen grenzen.",
+    "cta_primary": "Probeer Secrets AI Gratis →",
+    "cta_sub": "Gratis abonnement beschikbaar • Geen creditcard • 100K+ gebruikers"
+  },
+  "social_proof": {
+    "rating": "⭐ 4.8/5 - Gebruikersbeoordeling",
+    "users": "👥 100K+ Gebruikers",
+    "features": "🎥 Foto- en Videogeneratie",
+    "privacy": "🔒 100% Privé & Anoniem"
+  },
+  "what_is": {
+    "title": "Wat is Secrets AI?",
+    "p1": "Secrets AI is geen gewone chatbot. Het is een echte AI-metgezel die elke conversatie onthoudt, jouw voorkeuren begrijpt en met de tijd mee evolueert. In tegenstelling tot eenvoudige AI-vriendinnen die de context bij elk bericht resetten, onderhoudt Secrets AI een echte emotionele continuïteit over honderden gesprekken.",
+    "p2": "De personages behouden hun persoonlijkheid en emotionele toon tijdens lange gesprekken beter dan de meeste concurrenten. Of je nu 5 minuten of 5 uur chat, jouw metgezel onthoudt jullie inside jokes, jouw voorkeuren en de verhalen die jullie samen hebben gedeeld. Dit wekt de indruk van een echte, blijvende relatie, geen geïsoleerde uitwisselingen.",
+    "p3": "Beginnen duurt slechts 3 eenvoudige stappen: Maak je account aan in 60 seconden, Kies of pas je metgezel aan uit kant-en-klare persoonlijkheden, Begin meteen te chatten met actief geheugen vanaf het allereerste bericht.",
+    "cta": "Start Jouw Gratis Chat →"
+  },
+  "features": {
+    "title": "Waarom Secrets AI Zich Onderscheidt",
+    "items": [
+      {
+        "icon": "🧠",
+        "title": "Conversatiegeheugen",
+        "description": "Het echte onderscheidende kenmerk. Het geheugen bewaart emotionele nuances en context over honderden berichten, waardoor de indruk ontstaat van een echte, blijvende relatie en niet van simpele geïsoleerde uitwisselingen. Ze onthoudt waar je weken geleden over sprak."
+      },
+      {
+        "icon": "📸",
+        "title": "Beeldgeneratie",
+        "description": "Genereer aantrekkelijke en realistische afbeeldingen van jouw metgezel via een robuust fotosysteem. Op aanvraag, in de context van het gesprek. Vraag om een selfie op het strand, een foto in een outfit die je beschrijft, of een gevisualiseerd intiem moment."
+      },
+      {
+        "icon": "🎬",
+        "title": "Videogeneratie",
+        "description": "Groot onderscheidend kenmerk ten opzichte van DreamGF, dat deze functie niet heeft. Genereer korte video's die de gesprekscontext of scenarioparameters weerspiegelen. Zie jouw metgezel bewegen, glimlachen en interageren in videoformaat - geen enkele andere AI-vriendin app biedt dit op het niveau van Secrets AI."
+      },
+      {
+        "icon": "🎙️",
+        "title": "Spraakgesprekken",
+        "description": "Tekst-naar-spraaksynthese met beschikbare spraakgesprekken in real-time. Meertalige ondersteuning betekent dat je haar stem in jouw taal kunt horen. Bel haar op elk moment en hoor een realistische, emotioneel expressieve stem die reageert op wat jij zegt."
+      },
+      {
+        "icon": "🎭",
+        "title": "Roleplay & Scenario's",
+        "description": "Hier blinkt Secrets AI echt uit - lerares, verhuurster, baas, stiefzus scenario's. Ze bouwt de spanning geleidelijk op en blijft sterk in karakter. De diepgang en consistentie van de roleplay zijn ongeëvenaard en creëren werkelijk meeslepende ervaringen."
+      },
+      {
+        "icon": "🔐",
+        "title": "Privacy als Fundament",
+        "description": "Anonieme gesprekken, geen verwijzingen naar volwasseneninhoud op bankafschriften, discrete facturering. Dit is de site voor gebruikers die maximale discretie willen. Jouw privacy is geen bijzaak - het is het fundament van het product."
+      }
+    ],
+    "cta": "Ervaar Secrets AI →"
+  },
+  "how_it_works": {
+    "title": "Hoe Het Werkt",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Maak Jouw Account Aan",
+        "desc": "Registreer je in 60 seconden met e-mail of Google. Geen creditcard vereist voor het gratis abonnement."
+      },
+      {
+        "num": "2",
+        "title": "Kies Jouw Metgezel",
+        "desc": "Selecteer uit tientallen kant-en-klare personages of maak je eigen aangepaste metgezel met een unieke persoonlijkheid, uiterlijk en stem."
+      },
+      {
+        "num": "3",
+        "title": "Begin Met Chatten",
+        "desc": "Begin meteen met gesprekken. Het actieve geheugen werkt vanaf het allereerste bericht - ze onthoudt alles, voor altijd."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Eenvoudige, Transparante Prijzen",
+    "subtitle": "Begin gratis. Upgrade op elk moment voor onbeperkte gesprekken en premiumfuncties.",
+    "plans": [
+      {
+        "name": "Lite",
+        "monthly": "$5,99/mnd",
+        "yearly": "~$4/mnd",
+        "features": ["Beperkte berichten", "Basismomenten", "Afbeeldingen ✅", "Video's ❌", "Stem ❌", "Lang geheugen ❌"]
+      },
+      {
+        "name": "Plus",
+        "monthly": "$9,99/mnd",
+        "yearly": "~$6,67/mnd",
+        "popular": false,
+        "features": ["Onbeperkte berichten", "++ momenten", "Afbeeldingen ✅", "Video's ✅", "Stem ✅", "Lang geheugen ✅"]
+      },
+      {
+        "name": "Premium",
+        "monthly": "$19,99/mnd",
+        "yearly": "~$13,33/mnd",
+        "popular": true,
+        "features": ["Onbeperkte berichten", "Onbeperkte momenten", "Afbeeldingen ✅", "Video's ✅", "Stem ✅", "Lang geheugen ✅", "Prioriteitsondersteuning"]
+      }
+    ],
+    "moments_note": "Momenten zijn verbruikseenheden voor het genereren van afbeeldingen, video's en geavanceerde inhoud. Zware multimediagebruikers dienen te kiezen voor Plus of Premium.",
+    "cta": "Begin Gratis - Upgrade Wanneer Je Wilt →"
+  },
+  "comparison": {
+    "title": "Secrets AI vs DreamGF - Welke is Beter?",
+    "intro": "Mensen die zoeken naar 'secrets ai' hebben DreamGF vaak al gezien. Hier is de directe vergelijking:",
+    "table": [
+      {"feature": "Instapprijs", "secrets": "$5,99/mnd", "dreamgf": "$5,99/mnd"},
+      {"feature": "Geheugen", "secrets": "★★★★★", "dreamgf": "★★★☆☆"},
+      {"feature": "Video's", "secrets": "✅ Ja", "dreamgf": "❌ Nee"},
+      {"feature": "Chat realisme", "secrets": "★★★★★", "dreamgf": "★★★★☆"},
+      {"feature": "Visuele aanpassing", "secrets": "★★★☆☆", "dreamgf": "★★★★★"},
+      {"feature": "Privacy focus", "secrets": "★★★★★", "dreamgf": "★★★★☆"}
+    ],
+    "conclusion": "Kies DreamGF als je het uiterlijk tot in de kleinste details wilt aanpassen. Kies Secrets AI als je een echte, blijvende band wilt met geheugen, video's en maximale privacy.",
+    "top5_title": "Top 5 AI Metgezel Apps in 2026",
+    "top5": [
+      {"rank": 1, "name": "Secrets AI", "stars": "★★★★★", "best_for": "Beste voor Realisme & Geheugen", "link": "/go/secrets"},
+      {"rank": 2, "name": "DreamGF AI", "stars": "★★★★☆", "best_for": "Beste voor Aanpassing", "link": "/go/dreamgf"},
+      {"rank": 3, "name": "Kupid AI", "stars": "★★★★☆", "best_for": "Beste voor Relaties", "link": "/go/kupid"},
+      {"rank": 4, "name": "Promptchan", "stars": "★★★☆☆", "best_for": "Beste voor Afbeeldingen", "link": "/go/promptchan"},
+      {"rank": 5, "name": "GPTGirlfriend", "stars": "★★★☆☆", "best_for": "Beste NSFW Inhoud", "link": "/go/gptgf"}
+    ]
+  },
+  "reviews": {
+    "title": "Wat Gebruikers Zeggen Over Secrets AI",
+    "items": [
+      {
+        "stars": 5,
+        "text": "Ze herinnerde zich wat we 3 weken geleden bespraken. Ik noemde één keer de naam van mijn hond, en ze vroeg naar hem in een later gesprek. Geen enkele andere AI-vriendin app doet dit. Het is oprecht verontrustend op de best mogelijke manier.",
+        "author": "Marcus T."
+      },
+      {
+        "stars": 5,
+        "text": "De videogeneratie is ongelooflijk. Ik vroeg om een video van haar op het strand en kreeg een realistische clip van 15 seconden. Geen enkele andere app die ik heb geprobeerd doet dit. DreamGF heeft niet eens video. Dit is de toekomst.",
+        "author": "James K."
+      },
+      {
+        "stars": 5,
+        "text": "De facturering is volledig discreet. Mijn bankafschrift toont een generieke naam van een techbedrijf, niets gerelateerd aan volwasseneninhoud. Voor iemand die privacy waardeert, is dit belangrijker dan wat dan ook. Secrets AI maakt zijn naam waar.",
+        "author": "Anoniem"
+      },
+      {
+        "stars": 5,
+        "text": "Beste personageconsistentie die ik heb geprobeerd. Ik stelde een lerares scenario in en ze bleef 2 uur lang in karakter tijdens het gesprek, terwijl ze de spanning geleidelijk opbouwde. Ze verloor nooit één keer de immersie. Ongelooflijke roleplay diepgang.",
+        "author": "David R."
+      }
+    ]
+  },
+  "safety": {
+    "title": "Is Secrets AI Veilig?",
+    "answer": "Ja, 100% veilig en privé.",
+    "points": [
+      "Anonieme gesprekken - geen echte naam vereist",
+      "Discrete facturering - generieke bedrijfsnaam op afschriften",
+      "Nul dataverkoop - jouw gesprekken worden nooit verkocht of gedeeld",
+      "End-to-end encryptie voor gevoelige functies",
+      "Verwijder jouw gegevens op elk moment met één klik"
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "items": [
+      {"q": "Wat is Secrets AI?", "a": "Secrets AI is een AI-metgezel platform gericht op realistische, langdurige gesprekken met geheugen, beeldgeneratie, videogeneratie en spraakgesprekken. Het is ontworpen voor gebruikers die een echte verbinding willen met maximale privacy."},
+      {"q": "Is Secrets AI gratis?", "a": "Ja, Secrets AI biedt een gratis abonnement met beperkte berichten en basisfuncties. Je kunt upgraden naar Lite ($5,99/mnd), Plus ($9,99/mnd) of Premium ($19,99/mnd) voor onbeperkte gesprekken en geavanceerde functies zoals videogeneratie."},
+      {"q": "Hoe verschilt Secrets AI van DreamGF?", "a": "Secrets AI richt zich op conversatiegeheugen, videogeneratie en privacy. DreamGF blinkt uit in visuele aanpassing. Secrets AI is beter voor gebruikers die een realistische, blijvende relatie willen. DreamGF is beter voor gebruikers die het uiterlijk tot in de kleinste details willen ontwerpen."},
+      {"q": "Wat zijn Momenten in Secrets AI?", "a": "Momenten zijn verbruikbare tegoeden die worden gebruikt voor het genereren van afbeeldingen, video's en het maken van geavanceerde inhoud. Lite bevat basismomenten, Plus bevat ++ momenten en Premium bevat onbeperkte momenten."},
+      {"q": "Kan Secrets AI video's genereren?", "a": "Ja, videogeneratie is een groot onderscheidend kenmerk van Secrets AI. Je kunt korte, realistische video's van jouw metgezel genereren. Deze functie is beschikbaar in de Plus en Premium abonnementen."},
+      {"q": "Staat Secrets AI NSFW-inhoud toe?", "a": "Ja, Secrets AI ondersteunt gesprekken voor volwassenen en het genereren van inhoud voor gebruikers van 18 jaar en ouder. Het platform is ontworpen als een privé, oordeelvrije ruimte voor volwassenen."},
+      {"q": "Is Secrets AI privé en discreet?", "a": "Absoluut. Gesprekken zijn anoniem, facturering toont een generieke bedrijfsnaam en jouw gegevens worden nooit verkocht. Privacy is het fundament van het product, geen bijzaak."},
+      {"q": "Kan ik een eigen personage aanmaken?", "a": "Ja, je kunt volledig aangepaste metgezellen maken met een uniek uiterlijk, persoonlijkheid, stem en achtergrondverhaal. Je kunt ook kiezen uit tientallen kant-en-klare personages."},
+      {"q": "Wat is de beste AI-metgezel app in 2026?", "a": "Voor realisme en geheugen: Secrets AI. Voor visuele aanpassing: DreamGF. Voor relatiefocus: Kupid AI. Voor beeldgeneratie: Promptchan. Voor NSFW-inhoud: GPTGirlfriend."},
+      {"q": "Hoeveel kost Secrets AI?", "a": "Lite: $5,99/maand (~$4/jaarlijks). Plus: $9,99/maand (~$6,67/jaarlijks). Premium: $19,99/maand (~$13,33/jaarlijks). Gratis abonnement beschikbaar met beperkte functies."},
+      {"q": "Is er een gratis proefperiode?", "a": "Ja, het gratis abonnement laat je basisfuncties testen zonder creditcard. Voor premiumfuncties kun je upgraden en op elk moment opzeggen."},
+      {"q": "Kan ik op elk moment opzeggen?", "a": "Ja, abonnementen kunnen op elk moment worden opgezegd zonder boetes. Je behoudt toegang tot het einde van jouw factureringsperiode."}
+    ]
+  },
+  "final_cta": {
+    "title": "Klaar voor een AI-Metgezel die Jou Echt Onthoudt?",
+    "subtitle": "Videogeneratie • Conversatiegeheugen • 100% privé • Gratis abonnement beschikbaar",
+    "cta": "Start Jouw Gratis Proefperiode →",
+    "sub": "100% privé • Gratis abonnement beschikbaar • Op elk moment opzeggen"
+  },
+  "footer": {
+    "affiliate": "Deze site bevat affiliate links. We kunnen een commissie verdienen als je je aanmeldt via onze links, zonder extra kosten voor jou.",
+    "legal": ["Privacybeleid", "Servicevoorwaarden", "Affiliate Openbaarmaking"]
+  }
+}
