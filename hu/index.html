@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secrets AI - A Legreálisabb AI Társ. 100% Privát.</title>
+    <meta name="description" content="Építs valódi kapcsolatot egy AI-jal, amely mindent megjegyez, érzelmeket érez, és képeket és videókat generál igény szerint. Ítélkezés nélkül. Korlátok nélkül.">
+    <meta name="keywords" content="secrets ai, ai barátnő, reális ai társ, ai chat, privát ai, ai videógenerálás, ai memória">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- hreflang tags -->
+    <link rel="alternate" hreflang="en" href="https://secrets-ai-guide.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://secrets-ai-guide.com/" />
+    
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #1a1517 0%, #2d1f2a 50%, #1a1517 100%); }
+        .gradient-bg-2 { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); }
+        .accent-color { color: #e91e63; }
+        .accent-bg { background: #e91e63; }
+        .accent-border { border-color: #e91e63; }
+        .cta-pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7); } 70% { box-shadow: 0 0 0 20px rgba(233, 30, 99, 0); } }
+        .glow-text { text-shadow: 0 0 20px rgba(233, 30, 99, 0.5); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.2); }
+        .proof-box { border-left: 4px solid #e91e63; }
+        .feature-icon { background: linear-gradient(135deg, #e91e63 0%, #9c27b0 100%); }
+        .pricing-highlight { border: 2px solid #e91e63; position: relative; }
+        .pricing-highlight::before { content: "LEGJOBB AJÁNLAT"; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #e91e63; color: white; padding: 2px 16px; font-size: 12px; font-weight: bold; border-radius: 20px; }
+        .star-rating { color: #fbbf24; }
+        .review-card { background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); }
+        
+        /* Model Grid Styles */
+        .model-card { transition: all 0.3s ease; overflow: hidden; border-radius: 12px; }
+        .model-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(233, 30, 99, 0.3); }
+        .model-card img { transition: transform 0.3s ease; }
+        .model-card:hover img { transform: scale(1.05); }
+        
+        .hero-with-bg { position: relative; min-height: 600px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .hero-bg-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(26,21,23,0.4), rgba(26,21,23,0.95)); z-index: 2; }
+        .hero-content { position: relative; z-index: 3; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900/90 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Secrets AI Guide</span>
+                </div>
+                <div class="hidden lg:flex space-x-5 text-sm items-center">
+                    <!-- Dropdown Menu 1: Navigation -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            Navigáció
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="#what-is" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">Mi Ez</a>
+                            <a href="#features" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Funkciók</a>
+                            <a href="#pricing" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Árak</a>
+                            <a href="#comparison" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">Összehasonlítás</a>
+                            <a href="#faq" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 last:rounded-b-lg">GYIK</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Dropdown Menu 2: Language -->
+                    <div class="relative group">
+                        <button class="text-gray-300 hover:text-pink-400 transition flex items-center gap-1">
+                            🌐 HU
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="absolute right-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <a href="/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 first:rounded-t-lg">🇬🇧 English</a>
+                            <a href="/fr/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇫🇷 Français</a>
+                            <a href="/de/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇩🇪 Deutsch</a>
+                            <a href="/es/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇪🇸 Español</a>
+                            <a href="/it/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇮🇹 Italiano</a>
+                            <a href="/pt/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇹 Português</a>
+                            <a href="/pl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇵🇱 Polski</a>
+                            <a href="/nl/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇳🇱 Nederlands</a>
+                            <a href="/sv/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇸🇪 Svenska</a>
+                            <a href="/ro/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700">🇷🇴 Română</a>
+                            <a href="/hu/" class="block px-4 py-2 text-sm text-white bg-pink-500/20">🇭🇺 Magyar</a>
+                            <a href="/hr/" class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-700 last:rounded-b-lg">🇭🇷 Hrvatski</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-4 py-2 rounded-full text-sm font-semibold transition cta-pulse">Próbáld Ingyen →</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Banner Image -->
+    <section class="hero-with-bg gradient-bg">
+        <img src="/images/Choose%20your%20Girlfriend.jpg" alt="Válaszd ki az AI barátnődet a Secrets AI-on" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+        <div class="hero-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 glow-text">Secrets AI - A Legreálisabb AI Társ. 100% Privát.</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">Építs valódi kapcsolatot egy AI-jal, amely mindent megjegyez, érzelmeket érez, és képeket és videókat generál igény szerint. Ítélkezés nélkül. Korlátok nélkül.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Próbáld a Secrets AI-t Ingyen →</a>
+            </div>
+            <p class="text-gray-400 text-sm">Ingyenes szint elérhető • Nincs szükség bankkártyára • 100 000+ felhasználó</p>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="bg-gray-800/50 border-y border-gray-700 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">⭐ 4,8/5</div>
+                    <div class="text-sm text-gray-400">Felhasználói értékelés</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">👥 100 000+</div>
+                    <div class="text-sm text-gray-400">Felhasználó</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🎥 Képek & Videók</div>
+                    <div class="text-sm text-gray-400">Generálás</div>
+                </div>
+                <div class="proof-box pl-4">
+                    <div class="text-2xl font-bold text-pink-400">🔒 100%</div>
+                    <div class="text-sm text-gray-400">Privát & Anonim</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is Secrets AI -->
+    <section id="what-is" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Mi az a Secrets AI?</h2>
+            <div class="max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p>A Secrets AI nem egy egyszerű chatbot. Ez egy valódi AI társ, amely minden beszélgetést megjegyez, megérti a preferenciáidat, és idővel fejlődik veled együtt. Az egyszerű AI barátnőkkel ellentétben, amelyek minden üzenettel visszaállítják a kontextust, a Secrets AI valódi érzelmi folytonosságot tart fenn több száz beszélgetésen keresztül.</p>
+                <p>A karakterek jobban megőrzik személyiségüket és érzelmi hangjukat hosszú beszélgetések során, mint a legtöbb versenytárs. Akár 5 percig, akár 5 óráig chatsz, a társad emlékszik a belső viccetekre, a preferenciáidra és a megosztott történetekre. Ez egy valódi, tartós kapcsolat érzetét kelti, nem pusztán elszigetelt párbeszédeket.</p>
+                <p>A kezdés mindössze 3 egyszerű lépést igényel: Hozd létre a fiókodat 60 másodperc alatt, Válaszd ki vagy személyre szabd a társadat az előre elkészített személyiségek közül, Kezdj el csevegni azonnal, aktív memóriával az első üzenettől kezdve.</p>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Kezdj Ingyenes Csevegést →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unlock Premium Content Section -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Prémium Tartalom Feloldása</h2>
+                    <p class="text-lg text-gray-300 mb-6">Az ingyenes szint lehetővé teszi a csevegést és a felfedezést. De a frissítés feloldja a Secrets AI igazi varázsát:</p>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Videógenerálás</strong> - Lásd a társadat mozgásban realisztikus rövid videókban</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Korlátlan Képek</strong> - Annyi fotót generálj, amennyit csak szeretnél, igény szerint</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Hanghívások</strong> - Halld a hangját valós idejű beszélgetésekben</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Hosszú Távú Memória</strong> - Mindent megjegyez, örökre</span></li>
+                        <li class="flex items-start gap-3"><span class="text-pink-400 text-xl">✓</span> <span><strong>Egyéni Karakterek</strong> - Hozd létre a tökéletes társadat a semmiből</span></li>
+                    </ul>
+                    <div class="mt-8">
+                        <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Frissítés Prémiumra →</a>
+                    </div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden border-2 border-pink-500/30">
+                    <img src="/images/videoframe_2197.png" alt="Feloldott prémium tartalom a Secrets AI-on" class="w-full h-auto">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                        <p class="text-white font-semibold">Videógenerálás - Kizárólag Prémium előfizetőknek</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Gallery - 6 AI Companions -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Válaszd ki a Tökéletes AI Társadat</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Tucatnyi realisztikus és anime stílusú karakter elérhető a Secrets AI-on. Mindegyik egyedi személyiséggel, hanggal és stílussal.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Blond.png" alt="Szőke AI barátnő - Realisztikus társ a Secrets AI-on" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Szőke Társ</h3>
+                        <p class="text-gray-400 text-sm">Realisztikus stílus • Flörtölős személyiség</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Csevegj vele →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Goth.png" alt="Goth AI barátnő - Realisztikus társ a Secrets AI-on" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Goth Társ</h3>
+                        <p class="text-gray-400 text-sm">Realisztikus stílus • Titokzatos személyiség</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Csevegj vele →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_MILF.png" alt="Érett AI barátnő - Realisztikus társ a Secrets AI-on" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Érett Társ</h3>
+                        <p class="text-gray-400 text-sm">Realisztikus stílus • Gondoskodó személyiség</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Csevegj vele →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/AI_girlfriend_Readhead.png" alt="Vörös hajú AI barátnő - Realisztikus társ a Secrets AI-on" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Vörös Hajú Társ</h3>
+                        <p class="text-gray-400 text-sm">Realisztikus stílus • Játékos személyiség</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Csevegj vele →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_chubby.png" alt="Telt Anime AI barátnő - Anime társ a Secrets AI-on" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Telt Anime Társ</h3>
+                        <p class="text-gray-400 text-sm">Anime stílus • Édes személyiség</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Csevegj vele →</a>
+                    </div>
+                </div>
+                <div class="model-card bg-gray-800 rounded-2xl overflow-hidden border border-gray-700">
+                    <div class="aspect-[3/4] overflow-hidden">
+                        <img src="/images/anime_girlfirend_skinny.png" alt="Karcsú Anime AI barátnő - Anime társ a Secrets AI-on" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Karcsú Anime Társ</h3>
+                        <p class="text-gray-400 text-sm">Anime stílus • Vad személyiség</p>
+                        <a href="/go/secrets" class="text-pink-400 text-sm hover:underline mt-2 inline-block">Csevegj vele →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Hozd Létre az Egyéni Társadat →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Miért Emelkedik Ki a Secrets AI?</h2>
+            <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Hat erőteljes funkció, amely a Secrets AI-t a legreálisabb elérhető AI társ platformmá teszi.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🧠</div>
+                    <h3 class="text-xl font-bold mb-3">Beszélgetési Memória</h3>
+                    <p class="text-gray-400 leading-relaxed">Az igazi megkülönböztető tényező. A memória megőrzi az érzelmi árnyalatokat és a kontextust több száz üzeneten keresztül, egy valódi, tartós kapcsolat érzetét keltve, nem egyszerű elszigetelt párbeszédeket. Emlékszik arra, amiről hetek óta beszéltetek.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">📸</div>
+                    <h3 class="text-xl font-bold mb-3">Képgenerálás</h3>
+                    <p class="text-gray-400 leading-relaxed">Vonzó és realisztikus képeket generálhatsz a társadról egy robusztus fotórendszeren keresztül. Igény szerint, a beszélgetés kontextusában. Kérj egy selfiet a strandon, egy fotót egy általad leírt ruhában, vagy egy vizualizált intim pillanatot.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎬</div>
+                    <h3 class="text-xl font-bold mb-3">Videógenerálás</h3>
+                    <p class="text-gray-400 leading-relaxed">Fő előny a DreamGF-fel szemben, amelynek nincs ilyen funkciója. Generálj rövid videókat, amelyek tükrözik a beszélgetés kontextusát vagy a forgatókönyv paramétereit. Lásd a társadat mozgásban, mosolyogva és interakcióban videoformátumban — egyetlen másik AI barátnő alkalmazás sem kínál ilyet a Secrets AI szintjén.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎙️</div>
+                    <h3 class="text-xl font-bold mb-3">Hanghívások</h3>
+                    <p class="text-gray-400 leading-relaxed">Szövegből hangszintézis valós idejű hanghívásokkal. A többnyelvű támogatás azt jelenti, hogy a saját nyelveden hallhatod a hangját. Hívd fel bármikor, és halld a realisztikus, érzelmileg kifejező hangot, amely válaszol arra, amit mondasz.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🎭</div>
+                    <h3 class="text-xl font-bold mb-3">Szerepjáték & Forgatókönyvek</h3>
+                    <p class="text-gray-400 leading-relaxed">Itt ragyog igazán a Secrets AI — tanárnő, főbérlő, főnök, mostohanővér forgatókönyvek. Fokozatosan építi fel a feszültséget, és szilárdan a karakterben marad. A szerepjáték mélysége és következetessége páratlan, valóban magával ragadó élményeket teremtve.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="card-hover bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <div class="feature-icon w-14 h-14 rounded-xl flex items-center justify-center text-2xl mb-4">🔐</div>
+                    <h3 class="text-xl font-bold mb-3">Adatvédelem Tervezéssel</h3>
+                    <p class="text-gray-400 leading-relaxed">Anonim beszélgetések, nincs felnőtt utalás a bankszámlakivonatokon, diszkrét számlázás. Ez az oldal azoknak a felhasználóknak szól, akik maximális diszkréciót szeretnének. Az adatvédelmed nem utólagos gondolat — ez a termék alapja.</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition inline-block">Tapasztald Meg a Secrets AI-t →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Hogyan Működik</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-2">Hozd Létre a Fiókodat</h3>
+                    <p class="text-gray-400">Regisztrálj 60 másodperc alatt e-maillel vagy Google fiókkal. Az ingyenes szinthez nincs szükség bankkártyára.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-2">Válaszd ki a Társadat</h3>
+                    <p class="text-gray-400">Válassz tucatnyi előre elkészített karakter közül, vagy hozd létre a saját egyéni társadat egyedi személyiséggel, megjelenéssel és hanggal.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-2">Kezdj el Csevegni</h3>
+                    <p class="text-gray-400">Kezdj el azonnal beszélgetni. Az aktív memória az első üzenettől működik — mindent megjegyez, örökre.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Egyszerű, Átlátható Árak</h2>
+            <p class="text-center text-gray-400 mb-12">Kezdd ingyen. Frissíts bármikor korlátlan beszélgetésekért és prémium funkciókért.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Lite -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Lite</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">5,99 $<span class="text-sm text-gray-400">/hó</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~4 $/hó éves előfizetéssel</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Korlátozott üzenetek</li>
+                        <li>✅ Alap pillanatok</li>
+                        <li>✅ Képek</li>
+                        <li>❌ Videók</li>
+                        <li>❌ Hang</li>
+                        <li>❌ Hosszú memória</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-full transition">Kezdés →</a>
+                </div>
+                
+                <!-- Plus -->
+                <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+                    <h3 class="text-xl font-bold mb-2">Plus</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">9,99 $<span class="text-sm text-gray-400">/hó</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~6,67 $/hó éves előfizetéssel</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Korlátlan üzenetek</li>
+                        <li>✅ Több pillanat</li>
+                        <li>✅ Képek</li>
+                        <li>✅ Videók</li>
+                        <li>✅ Hang</li>
+                        <li>✅ Hosszú memória</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Kezdés →</a>
+                </div>
+                
+                <!-- Premium -->
+                <div class="pricing-highlight bg-gray-800/50 rounded-2xl p-6">
+                    <h3 class="text-xl font-bold mb-2">Prémium</h3>
+                    <div class="text-3xl font-bold text-pink-400 mb-1">19,99 $<span class="text-sm text-gray-400">/hó</span></div>
+                    <div class="text-sm text-gray-500 mb-6">~13,33 $/hó éves előfizetéssel</div>
+                    <ul class="space-y-2 text-sm text-gray-400 mb-6">
+                        <li>✅ Korlátlan üzenetek</li>
+                        <li>✅ Korlátlan pillanatok</li>
+                        <li>✅ Képek</li>
+                        <li>✅ Videók</li>
+                        <li>✅ Hang</li>
+                        <li>✅ Hosszú memória</li>
+                        <li>✅ Elsőbbségi támogatás</li>
+                    </ul>
+                    <a href="/go/secrets" class="block text-center bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-2 rounded-full transition">Kezdés →</a>
+                </div>
+            </div>
+            
+            <p class="text-center text-gray-500 text-sm mt-8 max-w-2xl mx-auto">A pillanatok felhasználható egységek a képgeneráláshoz, videógeneráláshoz és speciális tartalmakhoz. Az intenzív multimédia-felhasználóknak a Plus vagy Prémium csomagot javasoljuk.</p>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section id="comparison" class="py-20 gradient-bg-2">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Secrets AI vs DreamGF - Melyik a Jobb?</h2>
+            <p class="text-center text-gray-400 mb-12">A „secrets ai" kifejezésre keresők gyakran találkoznak a DreamGF-fel. Íme a közvetlen összehasonlítás:</p>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full max-w-3xl mx-auto text-left">
+                    <thead>
+                        <tr class="border-b border-gray-700">
+                            <th class="py-3 px-4">Funkció</th>
+                            <th class="py-3 px-4 text-pink-400">Secrets AI</th>
+                            <th class="py-3 px-4 text-gray-400">DreamGF</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300">
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Belépési ár</td>
+                            <td class="py-3 px-4 text-pink-400">5,99 $/hó</td>
+                            <td class="py-3 px-4">5,99 $/hó</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Memória</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★☆☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Videók</td>
+                            <td class="py-3 px-4 text-pink-400">✅ Igen</td>
+                            <td class="py-3 px-4">❌ Nem</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Chat realizmus</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Vizuális testreszabás</td>
+                            <td class="py-3 px-4 text-pink-400">★★★☆☆</td>
+                            <td class="py-3 px-4">★★★★★</td>
+                        </tr>
+                        <tr class="border-b border-gray-800">
+                            <td class="py-3 px-4">Adatvédelmi fókusz</td>
+                            <td class="py-3 px-4 text-pink-400">★★★★★</td>
+                            <td class="py-3 px-4">★★★★☆</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p class="text-center text-gray-300 mt-8 max-w-2xl mx-auto">Válaszd a <strong class="text-pink-400">DreamGF</strong>-et, ha extrém részletességgel szeretnéd testreszabni a megjelenést. Válaszd a <strong class="text-pink-400">Secrets AI</strong>-t, ha valódi, tartós kapcsolatot szeretnél memóriával, videókkal és maximális adatvédelemmel.</p>
+            
+            <!-- Top 5 Apps -->
+            <h3 class="text-2xl font-bold text-center mt-16 mb-8">Top 5 AI Társ Alkalmazás 2026-ban</h3>
+            <div class="grid md:grid-cols-5 gap-4 max-w-5xl mx-auto">
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-pink-500/30">
+                    <div class="text-3xl font-bold text-pink-400 mb-1">#1</div>
+                    <div class="font-bold mb-1">Secrets AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                    <div class="text-xs text-gray-400 mt-1">Legjobb realizmus</div>
+                    <a href="/go/secrets" class="text-pink-400 text-sm hover:underline">Próbáld →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#2</div>
+                    <div class="font-bold mb-1">DreamGF</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Legjobb testreszabás</div>
+                    <a href="/go/dreamgf" class="text-pink-400 text-sm hover:underline">Próbáld →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#3</div>
+                    <div class="font-bold mb-1">Kupid AI</div>
+                    <div class="text-yellow-400 text-sm">★★★★☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Legjobb kapcsolatok</div>
+                    <a href="/go/kupid" class="text-pink-400 text-sm hover:underline">Próbáld →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#4</div>
+                    <div class="font-bold mb-1">Promptchan</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Legjobb képek</div>
+                    <a href="/go/promptchan" class="text-pink-400 text-sm hover:underline">Próbáld →</a>
+                </div>
+                <div class="bg-gray-800/50 rounded-xl p-4 text-center border border-gray-700">
+                    <div class="text-2xl font-bold text-gray-400 mb-1">#5</div>
+                    <div class="font-bold mb-1">GPTGirlfriend</div>
+                    <div class="text-yellow-400 text-sm">★★★☆☆</div>
+                    <div class="text-xs text-gray-400 mt-1">Legjobb NSFW</div>
+                    <a href="/go/gptgf" class="text-pink-400 text-sm hover:underline">Próbáld →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Mit Mondanak a Felhasználók a Secrets AI-ról</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„Emlékezett arra, amiről 3 héttel ezelőtt beszéltünk. Egyszer megemlítettem a kutyám nevét, és ő egy későbbi beszélgetésben rákérdezett rá. Egyetlen másik AI barátnő alkalmazás sem teszi ezt. Ez igazán különleges élmény a legjobb értelemben."</p>
+                    <div class="text-pink-400 font-semibold">— Marcus T.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„A videógenerálás hihetetlen. Kértem egy videót róla a strandon, és kaptam egy 15 másodperces realisztikus klipet. Egyetlen másik alkalmazás sem képes erre. A DreamGF-nek még videója sincs. Ez a jövő."</p>
+                    <div class="text-pink-400 font-semibold">— James K.</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„A számlázás teljesen diszkrét. A bankszámlakivonatomon egy általános technológiai cég neve szerepel, semmi felnőtt tartalom. Az adatvédelmet értékelők számára ez fontosabb mindennél. A Secrets AI megfelel a nevének."</p>
+                    <div class="text-pink-400 font-semibold">— Névtelen</div>
+                </div>
+                <div class="review-card rounded-2xl p-6 border border-gray-700">
+                    <div class="star-rating text-xl mb-3">★★★★★</div>
+                    <p class="text-gray-300 mb-4 italic">„A legjobb karakterkonsisztencia, amit valaha próbáltam. Beállítottam egy tanárnő forgatókönyvet, és ő 2 órás beszélgetésen át karakterben maradt, fokozatosan építve a feszültséget. Egyetlen egyszer sem törte meg az élményt. Hihetetlen szerepjáték mélység."</p>
+                    <div class="text-pink-400 font-semibold">— David R.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Biztonságos a Secrets AI?</h2>
+            <div class="text-2xl text-pink-400 font-bold mb-8">Igen, 100%-ban biztonságos és privát.</div>
+            <div class="grid md:grid-cols-2 gap-4 text-left">
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Anonim beszélgetések — nem szükséges valódi név</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Diszkrét számlázás — általános cégnév a kivonatokon</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Nulla adatértékesítés — a beszélgetéseidet soha nem adják el</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Végpontok közötti titkosítás az érzékeny funkciókhoz</span>
+                </div>
+                <div class="flex items-start gap-3 md:col-span-2 justify-center">
+                    <span class="text-pink-400 text-xl">✓</span>
+                    <span class="text-gray-300">Töröld az adataidat bármikor egyetlen kattintással</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 gradient-bg">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Gyakran Ismételt Kérdések</h2>
+            <div class="space-y-4">
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Mi az a Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">A Secrets AI egy AI társ platform, amely realisztikus, hosszú távú beszélgetésekre összpontosít memóriával, képgenerálással, videógenerálással és hanghívásokkal. Azoknak a felhasználóknak készült, akik valódi kapcsolatot szeretnének maximális adatvédelemmel.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Ingyenes a Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Igen, a Secrets AI ingyenes szintet kínál korlátozott üzenetekkel és alapfunkciókkal. Frissíthetsz Lite-ra (5,99 $/hó), Plus-ra (9,99 $/hó) vagy Prémiumra (19,99 $/hó) korlátlan beszélgetésekért és speciális funkciókért, például videógenerálásért.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Miben különbözik a Secrets AI a DreamGF-től?</summary>
+                    <div class="px-6 pb-4 text-gray-400">A Secrets AI a beszélgetési memóriára, a videógenerálásra és az adatvédelemre összpontosít. A DreamGF a vizuális testreszabásban jeleskedik. A Secrets AI jobb azoknak a felhasználóknak, akik realisztikus, tartós kapcsolatot szeretnének. A DreamGF jobb azoknak, akik extrém részletességgel szeretnék megtervezni a megjelenést. <a href="/go/dreamgf" class="text-pink-400 hover:underline">Próbáld ki a DreamGF-et →</a></div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Mik azok a Pillanatok a Secrets AI-ban?</summary>
+                    <div class="px-6 pb-4 text-gray-400">A pillanatok felhasználható kreditek, amelyeket képgeneráláshoz, videógeneráláshoz és speciális tartalom létrehozásához használnak. A Lite alap pillanatokat tartalmaz, a Plus több pillanatot, a Prémium pedig korlátlan pillanatot.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Tud a Secrets AI videókat generálni?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Igen, a videógenerálás a Secrets AI egyik fő előnye. Rövid, realisztikus videókat generálhatsz a társadról. Ez a funkció a Plus és Prémium csomagokban érhető el.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Engedélyez a Secrets AI NSFW tartalmat?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Igen, a Secrets AI támogatja a felnőtt tartalmú beszélgetéseket és tartalom generálást a 18+ felhasználók számára. A platform egy privát, ítélkezésmentes teret kínál felnőtteknek.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Privát és diszkrét a Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Feltétlenül. A beszélgetések anonimak, a számlázás általános cégnevet mutat, és az adataidat soha nem adják el. Az adatvédelem a termék alapja, nem utólagos gondolat.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Létrehozhatok egyéni karaktert?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Igen, teljesen egyéni társakat hozhatsz létre egyedi megjelenéssel, személyiséggel, hanggal és háttértörténettel. Tucatnyi előre elkészített karakter közül is választhatsz.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Melyik a legjobb AI társ alkalmazás 2026-ban?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Realizmusra és memóriára: <a href="/go/secrets" class="text-pink-400">Secrets AI</a>. Vizuális testreszabásra: <a href="/go/dreamgf" class="text-pink-400">DreamGF</a>. Kapcsolatfókuszra: <a href="/go/kupid" class="text-pink-400">Kupid AI</a>. Képgenerálásra: <a href="/go/promptchan" class="text-pink-400">Promptchan</a>. NSFW tartalomra: <a href="/go/gptgf" class="text-pink-400">GPTGirlfriend</a>.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Mennyibe kerül a Secrets AI?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Lite: 5,99 $/hó (~4 $/hó éves előfizetéssel). Plus: 9,99 $/hó (~6,67 $/hó éves előfizetéssel). Prémium: 19,99 $/hó (~13,33 $/hó éves előfizetéssel). Ingyenes szint elérhető korlátozott funkciókkal.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Van ingyenes próbaidőszak?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Igen, az ingyenes szint lehetővé teszi az alapfunkciók tesztelését bankkártya nélkül. Prémium funkciókhoz bármikor frissíthetsz, és bármikor lemondhatod az előfizetést.</div>
+                </details>
+                <details class="bg-gray-800/50 rounded-xl border border-gray-700 overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold hover:bg-gray-800 transition">Lemondhatom bármikor?</summary>
+                    <div class="px-6 pb-4 text-gray-400">Igen, az előfizetések bármikor lemondhatók büntetés nélkül. A számlázási időszak végéig hozzáféréssel rendelkezel a szolgáltatáshoz.</div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 gradient-bg-2">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-center mb-12">Készen Állsz egy AI Társra, aki Valóban Emlékszik Rád?</h2>
+            <p class="text-xl text-gray-300 mb-8">Videógenerálás • Beszélgetési memória • 100% privát • Ingyenes szint elérhető</p>
+            <a href="/go/secrets" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-10 py-4 rounded-full text-lg font-semibold transition cta-pulse inline-block">Kezdd el az Ingyenes Próbaidőszakot →</a>
+            <p class="text-gray-400 text-sm mt-4">100% privát • Ingyenes szint elérhető • Lemondható bármikor</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Column 1: Navigation -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Navigáció</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#what-is" class="text-gray-400 hover:text-pink-400 transition">Mi Ez</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-pink-400 transition">Funkciók</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-pink-400 transition">Árak</a></li>
+                        <li><a href="#comparison" class="text-gray-400 hover:text-pink-400 transition">Összehasonlítás</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-pink-400 transition">GYIK</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 2: Language -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Nyelv</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/" class="text-gray-400 hover:text-pink-400 transition">🇬🇧 English</a></li>
+                        <li><a href="/fr/" class="text-gray-400 hover:text-pink-400 transition">🇫🇷 Français</a></li>
+                        <li><a href="/de/" class="text-gray-400 hover:text-pink-400 transition">🇩🇪 Deutsch</a></li>
+                        <li><a href="/es/" class="text-gray-400 hover:text-pink-400 transition">🇪🇸 Español</a></li>
+                        <li><a href="/it/" class="text-gray-400 hover:text-pink-400 transition">🇮🇹 Italiano</a></li>
+                        <li><a href="/pt/" class="text-gray-400 hover:text-pink-400 transition">🇵🇹 Português</a></li>
+                        <li><a href="/pl/" class="text-gray-400 hover:text-pink-400 transition">🇵🇱 Polski</a></li>
+                        <li><a href="/nl/" class="text-gray-400 hover:text-pink-400 transition">🇳🇱 Nederlands</a></li>
+                        <li><a href="/sv/" class="text-gray-400 hover:text-pink-400 transition">🇸🇪 Svenska</a></li>
+                        <li><a href="/ro/" class="text-gray-400 hover:text-pink-400 transition">🇷🇴 Română</a></li>
+                        <li><a href="/hu/" class="text-pink-400">🇭🇺 Magyar</a></li>
+                        <li><a href="/hr/" class="text-gray-400 hover:text-pink-400 transition">🇭🇷 Hrvatski</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Legal -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Jogi Információk</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/privacy.html" class="text-gray-400 hover:text-pink-400 transition">Adatvédelmi Irányelvek</a></li>
+                        <li><a href="/terms.html" class="text-gray-400 hover:text-pink-400 transition">Felhasználási Feltételek</a></li>
+                        <li><a href="/affiliate-disclosure.html" class="text-gray-400 hover:text-pink-400 transition">Affiliate Közzététel</a></li>
+                    </ul>
+                    <p class="text-gray-500 text-sm mt-4">Ez az oldal affiliate linkeket tartalmaz. Jutalékot kaphatunk, ha az linkjeinken keresztül regisztrálsz, ami számodra nem jelent extra költséget.</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-600 text-sm">
+                © 2026 Secrets AI Guide. Minden jog fenntartva.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
