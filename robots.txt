@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /privacy.html
+Disallow: /terms.html
+Disallow: /cookies.html
+Disallow: /dmca.html
+Disallow: /content-policy.html
+Disallow: /affiliate-disclosure.html
+Disallow: /content-policy.html
+Disallow: /privacy-policy.html
+Disallow: /terms-of-service.html
+
+Sitemap: https://secrets-ai-guide.com/sitemap.xml
